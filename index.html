@@ -1,55 +1,68 @@
 <!DOCTYPE html>
 <html>
+
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Alfred-spotify-mini-player : Alfred workflow to control spotify like the built-in iTunes Mini Player" />
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Alfred-spotify-mini-player by vdesabou</title>
+    <title>Alfred-spotify-mini-player</title>
   </head>
 
   <body>
-    <header>
-      <div class="inner">
-        <h1>Alfred-spotify-mini-player</h1>
-        <h2>Alfred workflow to control spotify like the built-in iTunes Mini Player</h2>
-        <a href="https://github.com/vdesabou/alfred-spotify-mini-player" class="button"><small>View project on</small>GitHub</a>
-      </div>
-    </header>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <h1>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/vdesabou/alfred-spotify-mini-player">View on GitHub</a>
+
+          <h1 id="project_title">Alfred-spotify-mini-player</h1>
+          <h2 id="project_tagline">Alfred workflow to control spotify like the built-in iTunes Mini Player</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/vdesabou/alfred-spotify-mini-player/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/vdesabou/alfred-spotify-mini-player/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
 <a name="alfred-spotify-mini-player" class="anchor" href="#alfred-spotify-mini-player"><span class="octicon octicon-link"></span></a>alfred-spotify-mini-player</h1>
 
-<p>This is "Spotify Mini Player", like the alfred built-in iTunes Mini Player, but for Spotify!
-See related topic on <a href="http://www.alfredforum.com/topic/1892-spotify-mini-player-version-28">alfredforum</a></p>
+<p>This is "Spotify Mini Player", like the alfred built-in iTunes Mini Player, but for Spotify!</p>
 
 <h2>
 <a name="description" class="anchor" href="#description"><span class="octicon octicon-link"></span></a>Description</h2>
 
-<p>Speed is the key word here: instead of using slow Spotify API, it uses a local version of your library stored in a SQL database(it includes your starred tracks, your playlists and playlists that you subscribed to). You can decide to search in your starred playlist only, or in all all your playlists. You can browse by Artist, Album or Playlist. You can also lookup for artists online. You can also control Spotify using keywords such as play/next/volmax/random/shuffle/star/etc...</p>
+<p>Speed is the key word here: instead of using slow Spotify API, it uses a local version of your library stored in a database(it includes your starred tracks, your playlists and playlists that you subscribed to). You can decide to search in your starred playlist only, or in all all your playlists. You can browse by Artist, Album or Playlist. You can also lookup for artists online. You can also control Spotify using keywords such as play/next/volmax/random/shuffle/star/etc...</p>
 
 <h2>
-<a name="performances-with-version-3x" class="anchor" href="#performances-with-version-3x"><span class="octicon octicon-link"></span></a>Performances with version 3.x</h2>
-
-<p>Using a library with 18000 tracks, search scope set to ALL, with artworks displayed, I get:</p>
+<a name="screenshots" class="anchor" href="#screenshots"><span class="octicon octicon-link"></span></a>Screenshots</h2>
 
 <ul>
-<li>150ms to return 50 results</li>
-<li>200ms to return 100 results</li>
-</ul><p>Hope you will appreciate the performance bump as I do :-)</p>
+<li>Search in all your playlists</li>
+</ul><p><img src="http://d.pr/i/MeWd+.gif" alt="Screenshot"></p>
 
-<p>See it in action in this <a href="https://vimeo.com/70175318">video</a> </p>
+<ul>
+<li>Browse and launch your playlists</li>
+</ul><p><img src="http://d.pr/i/ECCf+.gif" alt="Screenshot"></p>
+
+<ul>
+<li>Update your playlist and see progress</li>
+</ul><p><img src="http://d.pr/i/uSB4+.gif" alt="Screenshot"></p>
+
+<ul>
+<li>Browse by artist</li>
+</ul><p><img src="http://d.pr/i/QJU1+.gif" alt="Screenshot"></p>
+
+<ul>
+<li>Lookup artist "online"</li>
+</ul><p><img src="http://d.pr/i/y1Wb+.gif" alt="Screenshot"></p>
 
 <h2>
 <a name="features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features</h2>
@@ -58,17 +71,15 @@ See related topic on <a href="http://www.alfredforum.com/topic/1892-spotify-mini
 <li>Hotkey to trigger the workflow</li>
 <li>Update of playlists directly from the workflow!</li>
 <li>Search for Albums, Artists or Tracks</li>
-<li>Search for playlists and launch it</li>
+<li>Search for playlists (including your Top List), browse them and launch them</li>
 <li>Browse by Artists, Albums or Playlists</li>
 <li>
 <strong>Lookup artist online</strong> by using ctrl key on a track</li>
-<li>Launch your <strong>Top List</strong>
-</li>
 <li>
 <strong>Alfred Playlist</strong> manage a playlist from Alfred: add track (using fn), albums or playlist (using ⇧)</li>
 <li>Select a track with ⌥ to play the album, or ⌘ to play the artist</li>
 <li>Same control keywords as iTunes Mini Player: play, pause, mute, next, random, previous, volmax, volmid. And shuffle to activate shuffling.</li>
-<li>Star currently played track with keyword <em>start</em>
+<li>Star currently played track with keyword <em>star</em>
 </li>
 <li>Direct call to <a href="http://www.alfredforum.com/topic/1644-spotifious-a-natural-spotify-controller-for-alfred">Spotifious</a> workflow</li>
 <li>
@@ -84,11 +95,6 @@ See related topic on <a href="http://www.alfredforum.com/topic/1892-spotify-mini
 </li>
 <li>Install/Update of the library (see next section for explanations)</li>
 </ul><h2>
-<a name="screenshots" class="anchor" href="#screenshots"><span class="octicon octicon-link"></span></a>Screenshots</h2>
-
-<p><img src="http://d.pr/i/7xFz+.png" alt="Screenshot"></p>
-
-<h2>
 <a name="first-time-use" class="anchor" href="#first-time-use"><span class="octicon octicon-link"></span></a>First time use</h2>
 
 <p>You'll need to do the following steps:</p>
@@ -122,13 +128,6 @@ See related topic on <a href="http://www.alfredforum.com/topic/1892-spotify-mini
 <li><p>To add a track to your playlist select it with <em>fn</em> modifier</p></li>
 <li><p>To add an album or another playlist to your playlist select it with <em>shift</em> modifier</p></li>
 </ul><h2>
-<a name="download-the-workflow" class="anchor" href="#download-the-workflow"><span class="octicon octicon-link"></span></a>Download the workflow</h2>
-
-<p>Download the workflow below and open in Alfred.</p>
-
-<p><a href="https://raw.github.com/vdesabou/alfred-spotify-mini-player/master/SpotifyMiniPlayer.alfredworkflow">Download Workflow</a></p>
-
-<h2>
 <a name="troubleshooting" class="anchor" href="#troubleshooting"><span class="octicon octicon-link"></span></a>Troubleshooting</h2>
 
 <p>If you experience an issue with the workflow, use the "spot_mini_debug" command, it will generate a spot_mini_debug.tgz file in your Downloads directory. Then send this file to me.</p>
@@ -140,31 +139,37 @@ See related topic on <a href="http://www.alfredforum.com/topic/1892-spotify-mini
 <p><img src="http://d.pr/i/q8Rs+.png" alt="Screenshot"></p>
 
 <h2>
+<a name="performances-with-version-3x" class="anchor" href="#performances-with-version-3x"><span class="octicon octicon-link"></span></a>Performances with version 3.x</h2>
+
+<p>Using a library with 18000 tracks, search scope set to ALL, with artworks displayed, I get:</p>
+
+<ul>
+<li>150ms to return 50 results</li>
+<li>200ms to return 100 results</li>
+</ul><h2>
 <a name="credits" class="anchor" href="#credits"><span class="octicon octicon-link"></span></a>Credits</h2>
 
 <ul>
 <li><a href="https://github.com/citelao/Spotify-for-Alfred">Spotifious workflow</a></li>
 <li><a href="http://socketo.me">Ratchet</a></li>
-</ul>
-        </section>
+</ul><h2>
+<a name="download-the-workflow" class="anchor" href="#download-the-workflow"><span class="octicon octicon-link"></span></a>Download the workflow</h2>
 
-        <aside id="sidebar">
-          <a href="https://github.com/vdesabou/alfred-spotify-mini-player/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a>
-          <a href="https://github.com/vdesabou/alfred-spotify-mini-player/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
+<p>Download the workflow below and open in Alfred.</p>
 
-          <p class="repo-owner"><a href="https://github.com/vdesabou/alfred-spotify-mini-player"></a> is maintained by <a href="https://github.com/vdesabou">vdesabou</a>.</p>
-
-          <p>This page was generated by <a href="pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
-      </div>
+<p><a href="https://raw.github.com/vdesabou/alfred-spotify-mini-player/master/SpotifyMiniPlayer.alfredworkflow">Download Workflow</a></p>
+      </section>
     </div>
 
-  
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Alfred-spotify-mini-player maintained by <a href="https://github.com/vdesabou">vdesabou</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
   </body>
 </html>
