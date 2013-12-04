@@ -42,7 +42,7 @@
 <p>Speed is the key word here: instead of using slow Spotify API, it uses a local version of your library stored in a database(it includes your starred tracks, your playlists and playlists that you subscribed to). You can decide to search in your starred playlist only, or in all all your playlists. You can browse by Artist, Album or Playlist. You can also lookup for artists online. You can also control Spotify using keywords such as play/next/volmax/random/shuffle/star/etc...</p>
 
 <h2>
-<a name="screenshots" class="anchor" href="#screenshots"><span class="octicon octicon-link"></span></a>Screenshots</h2>
+<a name="animated-gifs" class="anchor" href="#animated-gifs"><span class="octicon octicon-link"></span></a>Animated Gifs</h2>
 
 <ul>
 <li>Search in all your playlists</li>
@@ -83,7 +83,7 @@
 </li>
 <li>Direct call to <a href="http://www.alfredforum.com/topic/1644-spotifious-a-natural-spotify-controller-for-alfred">Spotifious</a> workflow</li>
 <li>
-<a href="http://www.alfredforum.com/topic/1582-alleyoop-update-alfred-workflows/">AlleyOop</a> support</li>
+<a href="http://www.alfredforum.com/topic/2218-monkey-patch-update-alfred-workflows-via-alleyoop">AlleyOop/Monkey Patch</a> support</li>
 </ul><h2>
 <a name="settings" class="anchor" href="#settings"><span class="octicon octicon-link"></span></a>Settings</h2>
 
@@ -100,13 +100,28 @@
 <p>You'll need to do the following steps:</p>
 
 <ul>
-<li>Sign up for a <a href="https://developer.spotify.com/technologies/apps/#developer-account">developer account on Spotify</a> (you must allow app API).</li>
+<li><p>Sign up for a <a href="https://developer.spotify.com/technologies/apps/#developer-account">developer account on Spotify</a> (you must allow app API).</p></li>
 <li><p>Download the <a href="https://www.spotify.com/fr/download/mac/">latest version</a> of Spotify and <strong><em>install</em></strong> it (I had to do it, even though I was pretty sure to already have the latest version, so please do it!)</p></li>
-<li><p>Type "spot_mini" or configured hotkey to invoke Spotify Mini Player, and select "Install library" </p></li>
-</ul><p><img src="http://d.pr/i/4hcP+.png" alt="Screenshot"></p>
+<li><p>Type "spot_mini" or configured hotkey to invoke Spotify Mini Player, and select "1/ Open Spotify Mini Player App <a>spotify:app:miniplayer</a>" </p></li>
+</ul><p><img src="http://d.pr/i/ssf0+.png" alt="Screenshot"></p>
 
 <ul>
-<li>After some time, you should get a notification saying that library has been created.</li>
+<li>
+<p>If it doesn't work (Spotify indicates "Failed to load application miniplayer."):</p>
+
+<ul>
+<li><p>try to restart Spotify multiple times</p></li>
+<li><p>try to logout/login</p></li>
+<li><p>make sure you see in <a href="https://developer.spotify.com/technologies/apps/">Developer Account</a>:</p></li>
+</ul>
+</li>
+</ul><pre><code>Developer Account
+Your account has already been enabled to use the Spotify Apps API. Happy hacking!
+</code></pre>
+
+<ul>
+<li><p>If it works, invoke the Spotify Mini Player workflow again and select "2/ Install library"</p></li>
+<li><p>After some time, you should get a notification saying that library has been created.</p></li>
 </ul><p><strong>Note that the first time the library is created, all artworks are downloaded, so it can take a while!</strong></p>
 
 <p>You can check progress by invoking the workflow again:-</p>
@@ -157,7 +172,7 @@
 
 <p>Download the workflow below and open in Alfred.</p>
 
-<p><a href="https://raw.github.com/vdesabou/alfred-spotify-mini-player/master/SpotifyMiniPlayer.alfredworkflow">Download Workflow</a></p>
+<p><a href="https://raw.github.com/vdesabou/alfred-spotify-mini-player/master/SpotifyMiniPlayer.alfredworkflow"><img src="https://raw.github.com/vdesabou/alfred-spotify-mini-player/master/images/alfred-workflow-icon.png" alt="Download Workflow"></a></p>
       </section>
     </div>
 
