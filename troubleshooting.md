@@ -7,8 +7,6 @@ share: false
 noindex: true
 ---
 
-## Troubleshooting
-
 If you experience an issue with the workflow, use the "spot_mini_debug" command, it will generate a spot_mini_debug.tgz file in your *Downloads* directory. Then send this file to me.
 
 ![Screenshot](http://cl.ly/image/3S1I0r414012/Capture%20d%E2%80%99e%CC%81cran%202014-11-24%20a%CC%80%2018.16.06.png)

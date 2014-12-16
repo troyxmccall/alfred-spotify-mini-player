@@ -3,10 +3,9 @@ layout: article
 permalink: /setup/first-time-use/
 title: "First time use"
 toc: true
+share: false
 noindex: true
 ---
-
-## First time use
 
 You'll need to do the following steps:
 
