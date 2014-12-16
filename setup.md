@@ -3,6 +3,7 @@ layout: article
 permalink: /setup/
 title: "Setup"
 toc: true
+share: false
 noindex: true
 ---
 

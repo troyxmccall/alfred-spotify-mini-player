@@ -3,6 +3,7 @@ layout: article
 permalink: /about/
 title: "About"
 toc: true
+share: false
 noindex: true
 ---
 

@@ -3,6 +3,7 @@ layout: article
 permalink: /setup/setting-hotkeys/
 title: "Setting Hotkeys"
 toc: true
+share: false
 noindex: true
 ---
 
@@ -10,7 +11,7 @@ Spotify Mini Player has full support of [Alfred hotkeys](http://support.alfredap
 
 ## Invoke workflows with hotkeys
 
-It is highly recommended to use hotkeys to invoke the workflow rather than the keyword _spot_mini_
+It is highly recommended to use hotkeys to invoke the workflow rather than the keyword `spot_mini`
 
 To setup hotkeys, see example below:
 

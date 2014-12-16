@@ -3,6 +3,7 @@ layout: article
 permalink: /usage/
 title: "Usage"
 toc: true
+share: false
 noindex: true
 ---
 
@@ -21,15 +22,15 @@ The Alfred Playlist is one of your playlists where tracks, albums and even playl
 
 * Simply choose one of your playlists as the current "Alfred Playlist":
 
-* To add a track to your Alfred Playlist (or Your Music if you control it) select it with *fn* modifier:
+* To add a track to your Alfred Playlist (or Your Music if you control it) select it with `fn` modifier:
 
 ![Screenshot](https://i.cloudup.com/O9I8lqCvl3.png)
 
-or use *add_current_track* command:
+or use `add_current_track` command:
 
 ![Screenshot](https://dl.dropboxusercontent.com/s/y5l5t7xct1ej9x3/D64DC2E2-4059-4222-BD5B-D37E6DB6B0BA-321-000018F92C0BB367.gif?dl=0)
 
-* To add an album or another playlist to your playlist select it with *shift* modifier
+* To add an album or another playlist to your playlist select it with `shift` modifier
 
 * You can also clear all tracks from your Alfred Playlist, be careful when doing it. 
 
