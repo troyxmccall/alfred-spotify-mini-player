@@ -1,8 +1,9 @@
 ---
-layout: archive
+layout: article
 permalink: /usage/
 title: "Usage"
 toc: true
+noindex: true
 ---
 
 ## Your Music/Playlist Update

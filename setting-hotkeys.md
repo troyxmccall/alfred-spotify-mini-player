@@ -1,8 +1,9 @@
 ---
-layout: archive
+layout: article
 permalink: /setup/setting-hotkeys/
 title: "Setting Hotkeys"
 toc: true
+noindex: true
 ---
 
 Spotify Mini Player has full support of [Alfred hotkeys](http://support.alfredapp.com/workflows:config:triggers-hotkey) to invoke the workflow and for every possible action !

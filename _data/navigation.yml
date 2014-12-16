@@ -15,6 +15,11 @@
   excerpt: "Using the workflow"
   image: 120x120.png
 
+- title: Troubleshooting
+  url: /troubleshooting/
+  excerpt: "Troubleshooting"
+  image: 120x120.png
+
 - title: Packal Page
   url: http://www.packal.org/workflow/spotify-mini-player
   excerpt: "The Packal page"

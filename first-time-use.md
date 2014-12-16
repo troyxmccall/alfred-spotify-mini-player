@@ -1,8 +1,9 @@
 ---
-layout: archive
+layout: article
 permalink: /setup/first-time-use/
 title: "First time use"
 toc: true
+noindex: true
 ---
 
 ## First time use
@@ -12,7 +13,10 @@ You'll need to do the following steps:
 * Create an [Application on Spotify](https://developer.spotify.com/my-applications) (this is for both free and premium users)
     * You can set Application Name and Description to whatever you want
     * ***Redirect URI must be set to*** `http://localhost:15298/callback.php`
-    * ***Make sure to click 'Save' button once you set the Redirect URI***
+    
+**Warning:** Make sure to click 'Save' button once you set the Redirect URI 
+{: .notice-danger}
+
 
 ![Example](http://cl.ly/image/0h2F1z232Q2p/Capture_d%E2%80%99e%CC%81cran_2014-11-04_a%CC%80_11_13_50.png)
 
@@ -27,7 +31,10 @@ You'll need to do the following steps:
 
 * After some time, you should get a notification saying that library has been created.
 
-**Note that the first time the library is created, all artworks are downloaded, so it takes quite some time. But don't worry next updates are very quick!**
+
+**Note:** the first time the library is created, all artworks are downloaded, so it takes quite some time. But don't worry next updates are very quick! 
+{: .notice-info}
+
 
 You can check progress by invoking the workflow again:-
 

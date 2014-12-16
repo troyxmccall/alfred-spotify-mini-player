@@ -1,8 +1,9 @@
 ---
-layout: archive
+layout: article
 permalink: /about/
 title: "About"
 toc: true
+noindex: true
 ---
 
 ## Description

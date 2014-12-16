@@ -1,8 +1,9 @@
 ---
-layout: archive
+layout: article
 permalink: /setup/
 title: "Setup"
 toc: true
+noindex: true
 ---
 
 #Setup the workflow
