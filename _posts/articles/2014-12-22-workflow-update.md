@@ -1,0 +1,31 @@
+---
+layout: article
+title: "Workflow Update"
+date: 2014-12-22T11:39:03-04:00
+modified:
+categories: articles
+excerpt: "Check for workflow update."
+image:
+  teaser: teaser-workflow-update.jpg
+  feature:
+  credit: 
+  creditlink:
+noindex: true
+toc: false
+---
+
+
+## Auto-Update
+
+The workflow checks for update once per day.
+If an update is available, it will download the new version in your Downloads folder.
+A notification would be sent to warn you that the new version is available.
+
+## Manual Check
+
+In *Settings* section, you can check for workflow update:-
+
+<figure>
+	<img src="{{ site.url }}/images/check_workflow_update.gif"></a>
+	<figcaption>Check for a workflow update.</figcaption>
+</figure>

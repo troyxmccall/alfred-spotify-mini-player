@@ -3,24 +3,14 @@
 - title: About
   url: /about/
   excerpt: "About."
-  image: 120x120.png
+  image: teaser-about.jpg
 
 - title: Setup
   url: /setup/
   excerpt: "Setting up the workflow"
-  image: 120x120.png
+  image: teaser-setup.jpg
 
-- title: Usage
-  url: /usage/
-  excerpt: "Using the workflow"
-  image: 120x120.png
-
-- title: Troubleshooting
-  url: /troubleshooting/
-  excerpt: "Troubleshooting"
-  image: 120x120.png
-
-- title: Packal Page
-  url: http://www.packal.org/workflow/spotify-mini-player
-  excerpt: "The Packal page"
-  image: packal.png
+- title: Articles
+  url: /articles/
+  excerpt: "All features explained."
+  image: teaser-articles.jpg

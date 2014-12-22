@@ -1,4 +1,10 @@
 # Footer navigation links
 
-- title: External Page
-  url: http://mademistakes.com
+- title: Home
+  url: /
+
+- title: Packal
+  url: http://www.packal.org/workflow/spotify-mini-player
+  
+- title: Terms
+  url: /terms/
