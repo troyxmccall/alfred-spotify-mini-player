@@ -37,6 +37,16 @@ prose:
           label: "Published"
           element: "checkbox"
           value: "true"
+      - name: "categories"
+        field:
+          element: "hidden"
+          label: "Post's categories"
+          value: ""
+      - name: "toc"
+        field:
+          element: "hidden"
+          label: "Post's Table of Contents"
+          value: ''
       - name: "layout"
         field:
           label: "Layout"
