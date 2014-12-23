@@ -31,7 +31,7 @@ If you experience an issue with the workflow, follow these steps:-
 </figure>
 
 
-* Send the ```spot_mini_debug.tgz``` to [this email](mailto:alfred-spotify-mini-player@gmail.com)
+* Send the ```spot_mini_debug.tgz``` to [this email](mailto:alfred.spotify.mini.player@gmail.com)
 
 
 **Note:** With the ```spot_mini_debug.tgz```, I'll have access to your Spotify library (but not your credentials), this is for the time of investigation. Once investigation, you can regenerate a ```Client Secret```, as explained on the [Spotify Application page](https://developer.spotify.com/my-applications):-
