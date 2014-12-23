@@ -1,9 +1,9 @@
 # Site navigation links
 
-- title: About
-  url: /about/
-  excerpt: "About."
-  image: teaser-about.jpg
+- title: Features
+  url: /Features/
+  excerpt: "List of features"
+  image: teaser-features.jpg
 
 - title: Setup
   url: /setup/

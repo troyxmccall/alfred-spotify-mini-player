@@ -29,3 +29,7 @@ In *Settings* section, you can check for workflow update:-
 	<img src="{{ site.url }}/images/check_workflow_update.gif"></a>
 	<figcaption>Check for a workflow update.</figcaption>
 </figure>
+
+## Packal Friendly
+
+The workflow is also [Packal](http://www.packal.org) friendly, so you can update using [Packal Updater workflow](http://www.packal.org/workflow/packal-updater)
