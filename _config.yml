@@ -39,9 +39,14 @@ prose:
           value: "true"
       - name: "categories"
         field:
-          element: "hidden"
-          label: "Post's categories"
-          value: ""
+          element: "multiselect"
+          label: "Add Categories"
+          placeholder: "Choose Categories"
+          options:
+            - name: "Article"
+              value: "articles"
+            - name: "Blog"
+              value: "blog"
       - name: "toc"
         field:
           element: "hidden"
