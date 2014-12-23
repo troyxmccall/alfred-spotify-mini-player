@@ -38,9 +38,7 @@ Setting up the workflow is easy, you just need to follow these steps:-
 * Invoke the workflow again and select Authenticate with Spotify, your web browser will open and you'll be prompted to login with Spotify and allow access to your application. 
 At the end you should see a message like this:-
 
-```
-Hello <your name here> ! You are now successfully logged and you can close this window.
-```
+`Hello <your name here> ! You are now successfully logged and you can close this window.`
 
 * Invoke the workflow again and Create the library.
 

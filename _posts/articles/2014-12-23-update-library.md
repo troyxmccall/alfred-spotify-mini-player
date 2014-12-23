@@ -27,14 +27,14 @@ comments: true
 
 * In case you have modified a playlist or added tracks to Your Music using the Spotify application directly, then you can force a Refresh Library:-
 
-  * Use the ```refresh_library``` command:- 
+  * Use the `refresh_library` command:- 
 
 <figure>
 	<img src="{{ site.url }}/images/refresh-library1.jpg"></a>
 	<figcaption>refresh_library command.</figcaption>
 </figure>
 
-  * Use the ```Refresh your library``` in Settings menu:- 
+  * Use the `Refresh your library` in Settings menu:- 
 
 <figure>
 	<img src="{{ site.url }}/images/refresh-library2.jpg"></a>
