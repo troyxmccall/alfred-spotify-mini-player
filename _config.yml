@@ -26,7 +26,6 @@ prose:
   siteurl: "http://alfred-spotify-mini-player.com"
   media: "images"
   ignore:
-    - index.md
     - _config.yml
     - /_layouts
     - /_includes
@@ -35,6 +34,16 @@ prose:
       - name: "published"
         field:
           label: "Published"
+          element: "checkbox"
+          value: "true"
+      - name: "noindex"
+        field:
+          label: "No Index"
+          element: "checkbox"
+          value: "true"
+      - name: "comments"
+        field:
+          label: "Comments"
           element: "checkbox"
           value: "true"
       - name: "categories"
@@ -49,19 +58,24 @@ prose:
               value: "blog"
       - name: "toc"
         field:
-          element: "hidden"
+          element: "checkbox"
           label: "Post's Table of Contents"
-          value: ''
+          value: "true"
       - name: "layout"
         field:
           label: "Layout"
           element: "text"
-          value: "post"
+          value: "article"
       - name: "title"
         field:
           label: "Title"
           element: "text"
           value: "A awesome Headline!"
+      - name: "excerpt"
+        field:
+          label: "Excerpt"
+          element: "text"
+          value: "the excerpt"
 
 # Site owner
 owner:
