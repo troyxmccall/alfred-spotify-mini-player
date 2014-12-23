@@ -28,7 +28,7 @@ The Alfred Spotify Mini player workflow uses the Spotify Web API but is not endo
 
 ## Alfred disclaimer
 
-The Alfred Spotify Mini player workflow uses [Alfed](http://www.alfredapp.com) but is not endorsed, certified or otherwise approved in any way by Alfred team. Alfred is the registered trade mark of [Running with Crayons Ltd](http://www.runningwithcrayons.com/).
+The Alfred Spotify Mini player workflow uses [Alfred](http://www.alfredapp.com) but is not endorsed, certified or otherwise approved in any way by Alfred team. Alfred is the registered trade mark of [Running with Crayons Ltd](http://www.runningwithcrayons.com/).
 
 
 ## Log Files
