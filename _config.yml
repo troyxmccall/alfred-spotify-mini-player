@@ -18,10 +18,11 @@ markdown: kramdown
 highlighter: pygments
 gems:
   - jekyll-sitemap
+  - jemoji
 
 
 # Site owner
-owner: 
+owner:
   name: "Vincent"
   email: alfred.spotify.mini.player@gmail.com
   twitter: "vdesabou"

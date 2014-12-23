@@ -1,6 +1,12 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    activesupport (4.2.0)
+      i18n (~> 0.7)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
+      tzinfo (~> 1.1)
     blankslate (2.1.2.4)
     bourbon (4.0.2)
       sass (~> 3.3)
@@ -18,7 +24,12 @@ GEM
     fast-stemmer (1.0.2)
     ffi (1.9.6)
     ffi (1.9.6-x64-mingw32)
+    gemoji (2.1.0)
     hitimes (1.2.2)
+    html-pipeline (1.11.0)
+      activesupport (>= 2)
+      nokogiri (~> 1.4)
+    i18n (0.7.0)
     jekyll (2.4.0)
       classifier-reborn (~> 2.0)
       colorator (~> 0.1)
@@ -43,6 +54,11 @@ GEM
     jekyll-sitemap (0.6.3)
     jekyll-watch (1.2.0)
       listen (~> 2.7)
+    jemoji (0.4.0)
+      gemoji (~> 2.0)
+      html-pipeline (~> 1.9)
+      jekyll (~> 2.0)
+    json (1.8.1)
     kramdown (1.5.0)
     liquid (2.6.1)
     listen (2.8.4)
@@ -50,9 +66,15 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     mercenary (0.3.5)
+    mini_portile (0.6.1)
+    minitest (5.5.0)
     neat (1.7.0)
       bourbon (>= 4.0)
       sass (>= 3.3)
+    nokogiri (1.6.5)
+      mini_portile (~> 0.6.0)
+    nokogiri (1.6.5-x64-mingw32)
+      mini_portile (~> 0.6.0)
     octopress (3.0.0.rc.23)
       jekyll (~> 2.0)
       mercenary (~> 0.3.2)
@@ -83,11 +105,14 @@ GEM
     safe_yaml (1.0.4)
     sass (3.4.9)
     thor (0.19.1)
+    thread_safe (0.3.4)
     timers (4.0.1)
       hitimes
     titlecase (0.1.1)
     toml (0.1.2)
       parslet (~> 1.5.0)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
     yajl-ruby (1.1.0)
 
 PLATFORMS
@@ -98,6 +123,7 @@ DEPENDENCIES
   bourbon
   jekyll (~> 2.4.0)
   jekyll-sitemap (~> 0.6.1)
+  jemoji (~> 0.4.0)
   neat
   octopress (~> 3.0.0.rc.12)
   sass
