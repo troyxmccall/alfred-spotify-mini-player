@@ -12,6 +12,7 @@ image:
   creditlink:
 noindex: true
 toc: true
+comments: true
 ---
 
 ## Alfred Playlist

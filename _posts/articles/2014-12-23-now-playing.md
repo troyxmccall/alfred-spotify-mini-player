@@ -12,6 +12,7 @@ image:
   creditlink:
 noindex: true
 toc: false
+comments: true
 ---
 
 * You can enable "Now Playing" notifications (enabled by default), to get a notification every time a song changes:-

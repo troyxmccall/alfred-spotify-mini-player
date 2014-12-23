@@ -12,6 +12,7 @@ image:
   creditlink:
 noindex: true
 toc: false
+comments: true
 ---
 
 * You can create an "artist radio" playlist for an artist in the *artist* menu:-

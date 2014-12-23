@@ -12,6 +12,7 @@ image:
   creditlink:
 noindex: true
 toc: false
+comments: true
 ---
 
 If you experience an issue with the workflow, follow these steps:-

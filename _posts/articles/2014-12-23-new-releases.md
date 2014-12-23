@@ -4,7 +4,7 @@ title: "New Album Releases"
 date: 2014-12-23T11:39:03-04:00
 modified:
 categories: articles
-excerpt: "Get the latest album releases in your country or any other country worlwide."
+excerpt: "Get the latest album releases in your country or any other country worldwide."
 image:
   teaser: teaser-new-releases.jpg
   feature:
@@ -12,6 +12,7 @@ image:
   creditlink:
 noindex: true
 toc: false
+comments: true
 ---
 
 * You can browse the new albums releases from Spotify in the *album* menu:-

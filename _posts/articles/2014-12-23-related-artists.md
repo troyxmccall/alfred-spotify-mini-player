@@ -12,6 +12,7 @@ image:
   creditlink:
 noindex: true
 toc: false
+comments: true
 ---
 
 * You can browse the related artists in the *artist* menu:-

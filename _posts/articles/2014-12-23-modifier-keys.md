@@ -12,6 +12,7 @@ image:
   creditlink:
 noindex: true
 toc: false
+comments: true
 ---
 
 Alfred modifiers are specific actions you can trigger when pressing special keys when selecting a track:
