@@ -41,6 +41,30 @@ comments: true
 	<figcaption>Refresh your Library in Settings menu.</figcaption>
 </figure>
 
+## Background download of artworks
+
+Since version 6, the workflow downloads artworks in background, which means that the Create/Refresh Library is very fast.
+
+You get a notification when background download of artworks starts:-
+
+<figure>
+	<img src="{{ site.url }}/images/setup4.jpg"></a>
+	<figcaption>Notification for the start of background download of artworks.</figcaption>
+</figure>
+
+* During that time, you can use the workflow and you'll see the progress at the top of main menu:-
+
+<figure>
+	<img src="{{ site.url }}/images/refresh-library4.jpg"></a>
+	<figcaption>Progress bar for background download of artworks.</figcaption>
+</figure>
+
+* Until the download is complete, you can see some blank artworks, that's expected:-
+
+<figure>
+	<img src="{{ site.url }}/images/setup5.jpg"></a>
+	<figcaption>Example of blank artworks until the end of background download is over.</figcaption>
+</figure> 
 
 ## Re-Create Library from scratch
 
@@ -50,3 +74,4 @@ If for some reasons you want to delete and re-create your entire library, you ca
 	<img src="{{ site.url }}/images/refresh-library3.jpg"></a>
 	<figcaption>Re-Create your library from scratch.</figcaption>
 </figure>
+

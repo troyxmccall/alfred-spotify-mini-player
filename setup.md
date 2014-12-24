@@ -20,7 +20,7 @@ Setting up the workflow is easy, you just need to follow these steps:-
 {: .notice-danger}
 
 <figure>
-	<a href="http://cl.ly/image/0h2F1z232Q2p/Capture_d%E2%80%99e%CC%81cran_2014-11-04_a%CC%80_11_13_50.png"><img src="{{ site.url }}/images/spotify_application.png"></a>
+	<a href="http://cl.ly/image/0h2F1z232Q2p/Capture_d%E2%80%99e%CC%81cran_2014-11-04_a%CC%80_11_13_50.png"><img src="{{ site.url }}/images/setup1.png"></a>
 	<figcaption>Example of Spotify Application.</figcaption>
 </figure>
 
@@ -42,16 +42,34 @@ At the end you should see a message like this:-
 
 * Invoke the workflow again and Create the library.
 
-* After some time, you should get a notification saying that library has been created.
-
-
-**Note:** All artworks are downloaded in the background. Until this process is over, you can see blank artworks when using the workflow.
-{: .notice-info}
-
-
 * You can check progress by invoking the workflow again:-
 
 <figure>
-	<img src="{{ site.url }}/images/update_progress.png"></a>
+	<img src="{{ site.url }}/images/setup2.jpg"></a>
 	<figcaption>See progress by invoking workflow.</figcaption>
 </figure>
+
+
+* After some time, you should get a notification saying that library has been created.
+
+<figure>
+	<img src="{{ site.url }}/images/setup3.jpg"></a>
+	<figcaption>Library created (43 seconds for 2500 tracks).</figcaption>
+</figure>
+
+* Then you can use and enjoy the workflow. The artworks are downloaded in the background, you should get a notification when background download starts:-
+
+<figure>
+	<img src="{{ site.url }}/images/setup4.jpg"></a>
+	<figcaption>Notification for the start of background download of artworks.</figcaption>
+</figure>
+
+* During that time, you can use the workflow (you'll see the progress at the top of main menu), and you can see some blank artworks:-
+
+<figure>
+	<img src="{{ site.url }}/images/setup5.jpg"></a>
+	<figcaption>Example of blank artworks until the end of background download is over.</figcaption>
+</figure>
+
+
+
