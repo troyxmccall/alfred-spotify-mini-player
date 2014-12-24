@@ -23,10 +23,5 @@ You can browse by Artist, Album or Playlist. You can also lookup for artists or 
 </p>
 </div><!-- /.tile -->
 
-<center>
-<figure>
-	<a href="{{ site.url }}/images/home.gif"><img src="{{ site.url }}/images/home.gif"></a>
- 	<!--<figcaption>Spotify Mini Player in action.</figcaption>-->
-</figure>
-</center>
+<iframe width="560" height="315" src="//www.youtube.com/embed/Cx7gHRBoNbg" frameborder="0"> </iframe>
 </div><!-- /.tiles -->
