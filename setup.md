@@ -21,7 +21,7 @@ Setting up the workflow is easy, you just need to follow these steps:-
 
 <figure>
 	<a href="http://cl.ly/image/0h2F1z232Q2p/Capture_d%E2%80%99e%CC%81cran_2014-11-04_a%CC%80_11_13_50.png"><img src="{{ site.url }}/images/setup1.png"></a>
-	<figcaption>Example of Spotify Application.</figcaption>
+	<figcaption>Example of Spotify Application (click to enlarge).</figcaption>
 </figure>
 
 
@@ -31,14 +31,14 @@ Setting up the workflow is easy, you just need to follow these steps:-
 
 <figure>
 	<a href="{{ site.url }}/images/setup.gif"><img src="{{ site.url }}/images/setup.gif"></a>
-	<figcaption>Paste Client ID and Client Secret.</figcaption>
+	<figcaption>Paste Client ID and Client Secret (click to enlarge).</figcaption>
 </figure>
 
 
 * Invoke the workflow again and select Authenticate with Spotify, your web browser will open and you'll be prompted to login with Spotify and allow access to your application. 
 At the end you should see a message like this:-
 
-`Hello <your name here> ! You are now successfully logged and you can close this window.`
+>Hello <your name here> ! You are now successfully logged and you can close this window.
 
 * Invoke the workflow again and Create the library.
 
