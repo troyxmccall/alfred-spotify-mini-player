@@ -59,7 +59,7 @@ prose:
       - name: "toc"
         field:
           element: "checkbox"
-          label: "Post's Table of Contents"
+          label: "toc"
           value: "true"
       - name: "layout"
         field:

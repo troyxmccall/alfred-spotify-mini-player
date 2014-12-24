@@ -1,6 +1,7 @@
 # Skinny Bones Gemfile
 source "https://rubygems.org"
 
+gem 'github-pages'
 gem 'jekyll', '~> 2.4.0'
 gem 'jekyll-sitemap', '~> 0.6.1'
 gem 'jemoji', '~> 0.4.0'
