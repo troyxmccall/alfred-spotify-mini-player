@@ -22,7 +22,7 @@ gems:
 
 # prose
 prose:
-  rooturl: "_posts"
+  rooturl: "/"
   siteurl: "http://alfred-spotify-mini-player.com"
   media: "images"
   ignore:
