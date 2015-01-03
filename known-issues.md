@@ -20,5 +20,7 @@ This is the list of current known issues:
 
 * Local tracks are not currently supported. This is a bug of Web API.
 
+* It is not possible as of now to subscribe to a playlist with the Web API. Once it would be supported, I'll add it.
+
 * The *Starred* playlist is not returned by Web API: Spotify has removed the notion of 'starred tracks' (which is now kind of replaced by "Your Music").
 As a workaround, you can create a new playlist (called 'Starred') and copy all your starred tracks in it.

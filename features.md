@@ -14,7 +14,8 @@ You can browse by Artist, Album or Playlist. You can also lookup for artists or 
 If you want to search for playlists, albums, artists or tracks not in your library, you also can !
 Give it a try you won't be disappointed!
 
-* Search for Albums, Artists or Tracks and Playlists, browse them and launch them
+* Full control of Albums, Artists or Tracks and Playlists in your Library
+* [**Search Online**]( {{ site.url }}/articles/search-online) (i.e not in your Library) for Albums, Artists or Tracks and Playlists
 * Full support of [**hotkeys**]( {{ site.url }}/articles/hotkeys)
 * [**Modifiers Keys**]( {{ site.url }}/articles/modifier-keys) for quick access to common actions
 * [**Alfred Playlist** or **Your Music** control]( {{ site.url }}/articles/alfred-playlist) manage a playlist or Your Music from Alfred
