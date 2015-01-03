@@ -17,6 +17,7 @@ Give it a try you won't be disappointed!
 * Full control of Albums, Artists or Tracks and Playlists in your Library
 * [**Search Online**]( {{ site.url }}/articles/search-online) (i.e not in your Library) for Albums, Artists or Tracks and Playlists
 * [**Add**]( {{ site.url }}/articles/add) tracks, albums or even entire playlists to Your Music or any of your playlists directly
+* [**Remove**]( {{ site.url }}/articles/remove) current track from Your Music or one of your Playlists
 * Full support of [**hotkeys**]( {{ site.url }}/articles/hotkeys)
 * [**Modifiers Keys**]( {{ site.url }}/articles/modifier-keys) for quick access to common actions
 * [**Alfred Playlist** or **Your Music** control]( {{ site.url }}/articles/alfred-playlist) manage a playlist or Your Music from Alfred
