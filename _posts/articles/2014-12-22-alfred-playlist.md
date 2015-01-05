@@ -2,7 +2,7 @@
 layout: article
 title: "Control Alfred Playlist or Your Music"
 date: 2014-12-22T11:39:03-04:00
-modified:
+modified: 2015-01-05T11:39:03-04:00
 categories: articles
 excerpt: "Use one of your playlists and control it with the workflow."
 image:
@@ -28,15 +28,15 @@ The Alfred Playlist is simply one of your playlists that you can choose and for 
 </figure>
 
 
-* To add a track to your Alfred Playlist select it with `fn` modifier:
+* To add a track to your Alfred Playlist select it with `fn` modifier, you'll get a menu where you can choose your _Alfred Playlist_ (or any other playlist):-
 
 
 <figure>
 	<a href="{{ site.url }}/images/alfred-playlist-fn-modifier.gif"><img src="{{ site.url }}/images/alfred-playlist-fn-modifier.gif"></a>
-	<figcaption>Use <i>fn</i> on a track and press <i>enter</i> to add it to your Alfred Playlist.</figcaption>
+	<figcaption>Use <i>fn</i> on a track and press <i>enter</i>, then choose your Alfred Playlist.</figcaption>
 </figure>
 
-* To add an album or another playlist to your Alfred Playlist, select a track with `shift` modifier key and press `enter`
+* To add an album or another playlist to your Alfred Playlist, select a track with `shift` modifier key and press `enter`. You'll get a menu where you can choose your _Alfred Playlist_ (or any other playlist).
 
 * To add currently playing track to your Alfred Playlist, you can use `add_current_track` command:
 
