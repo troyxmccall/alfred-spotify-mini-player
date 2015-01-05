@@ -2,7 +2,7 @@
 layout: article
 title: "Featured Playlists"
 date: 2014-12-23T11:39:03-04:00
-modified:
+modified: 2015-01-05T11:39:03-04:00
 categories: articles
 excerpt: "Get the featured playlists from Spotify in your country or any other country worldwide."
 image:
@@ -19,7 +19,7 @@ comments: true
 
 <figure>
 	<img src="{{ site.url }}/images/featured-playlists1.jpg"></a>
-	<figcaption>Featured Playlists in Playlists menu.</figcaption>
+	<figcaption>Featured playlists in Playlists menu.</figcaption>
 </figure>
 
 * Then you can choose the country you want (any country where Spotify is available can be selected):-
@@ -29,9 +29,16 @@ comments: true
 	<figcaption>Choose the country you want.</figcaption>
 </figure>
 
-* Then you get the list of featured playlists and select one to launch it:-
+* Then you get the list of featured playlists and select one to browse it:-
 
 <figure>
 	<img src="{{ site.url }}/images/featured-playlists3.jpg"></a>
-	<figcaption>List of Featured playlists in chosen country.</figcaption>
+	<figcaption>List of featured playlists in chosen country.</figcaption>
+</figure>
+
+* And browse the selected playlist with all _usual_ options:-
+
+<figure>
+	<img src="{{ site.url }}/images/featured-playlists4.jpg"></a>
+	<figcaption>Browsed featured playlist.</figcaption>
 </figure>
