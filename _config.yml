@@ -81,12 +81,12 @@ prose:
 owner:
   name: "Vincent"
   email: alfred.spotify.mini.player@gmail.com
-  twitter: "vdesabou"
+  twitter: "TheMiniPlayer"
   google:
     plus: +AlfredSpotifyMiniPlayer
     ad-client:
     ad-slot:
-  bio:
+  bio: Creator and developer of the workflow
   avatar: bio-photo.jpg # 160x160 px image for author byline
 disqus-shortname: alfred-spotify-mini-player
 
