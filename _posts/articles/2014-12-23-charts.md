@@ -10,7 +10,7 @@ image:
   feature:
   credit: 
   creditlink:
-noindex: true
+noindex: false
 toc: false
 comments: true
 ---

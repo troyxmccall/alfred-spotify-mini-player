@@ -6,7 +6,7 @@ toc: true
 share: false
 image:
   feature: 
-noindex: true
+noindex: false
 ---
 
 ## Description

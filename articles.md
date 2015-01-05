@@ -10,7 +10,7 @@ image:
   feature:
   teaser:
 share: false
-noindex: true
+noindex: false
 ---
 
 <div class="tiles">

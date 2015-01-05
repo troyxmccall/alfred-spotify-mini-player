@@ -10,7 +10,7 @@ image:
   thumb:
 share: false
 toc: false
-noindex: true
+noindex: false
 ---
 
 6.0 (not released yet):

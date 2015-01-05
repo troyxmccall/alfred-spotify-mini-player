@@ -4,7 +4,7 @@ permalink: /setup/
 title: "Setup"
 toc: true
 share: false
-noindex: true
+noindex: false
 ---
 
 Setting up the workflow is easy, you just need to follow these steps:-

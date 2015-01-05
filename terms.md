@@ -10,7 +10,7 @@ image:
   thumb:
 share: false
 toc: true
-noindex: true
+noindex: false
 ---
 
 
