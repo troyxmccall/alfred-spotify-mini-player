@@ -1,0 +1,39 @@
+---
+layout: article
+title: "Follow or Unfollow artists"
+date: 2015-01-05T11:39:03-04:00
+modified:
+categories: articles
+excerpt: "Follow or Unfollow artists."
+image:
+  teaser: teaser-follow.jpg
+  feature:
+  credit: 
+  creditlink:
+noindex: true
+toc: false
+comments: true
+---
+
+* You can follow (or unfollow) an artist in the *Artist* menu:-
+
+<figure>
+	<img src="{{ site.url }}/images/follow1.jpg"></a>
+	<figcaption>Follow/Unfollow option in the Artist menu.</figcaption>
+</figure>
+
+* Depending if you already follow the artist or not, you can follow or unfollow him:-
+
+<figure>
+	<img src="{{ site.url }}/images/follow2.jpg"></a>
+	<figcaption>Follow or Unfollow depending on current status.</figcaption>
+</figure>
+
+
+* You get a notification once it is done:-
+
+<figure>
+	<img src="{{ site.url }}/images/follow3.jpg"></a>
+	<figcaption>Example of notification.</figcaption>
+</figure>
+

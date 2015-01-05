@@ -2,7 +2,7 @@
 layout: article
 permalink: /release-notes/
 title: "Release Notes"
-modified: 2014-12-23
+modified: 2015-01-05
 excerpt: "Release Notes."
 image:
   feature:
@@ -13,6 +13,27 @@ toc: false
 noindex: true
 ---
 
+6.0 (not released yet):
+
+* Full _Alfred Remote_ support
+
+* [Now Playing]( {{ site.url }}/articles/now-playing): display a notification every time a track is played (or un-paused).
+
+* New icons
+
+* Added [charts]( {{ site.url }}/articles/charts)
+
+* Background download of artworks and better, quicker [library refresh]( {{ site.url }}/articles/update-library)
+
+* Added [Search Online]( {{ site.url }}/articles/search-online) (i.e not in your library) for albums, artists or tracks and playlists
+
+* Better [lyrics]( {{ site.url }}/articles/lyrics) handling
+
+* Added [new album releases]( {{ site.url }}/articles/new-releases)
+
+* [Follow or Unfollow]( {{ site.url }}/articles/follow-artist) an artist
+
+* And many more improvements and bug fixes...
 
 5.2:
 

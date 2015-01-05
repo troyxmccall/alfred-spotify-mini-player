@@ -21,7 +21,7 @@ If you want to search for playlists, albums, artists or tracks not in your libra
 ## List of features
 
 * Full control of albums, artists or tracks and playlists in your library
-* [**Search Online**]( {{ site.url }}/articles/search-online) (i.e not in your library) for albums, artists or tracks and Pplaylists
+* [**Search Online**]( {{ site.url }}/articles/search-online) (i.e not in your library) for albums, artists or tracks and playlists
 * [**Add**]( {{ site.url }}/articles/add) tracks, albums or even entire playlists to _Your Music_ or any of your playlists directly
 * [**Remove**]( {{ site.url }}/articles/remove) current track from _Your Music_ or one of your playlists
 * Full support of [**hotkeys**]( {{ site.url }}/articles/hotkeys)
@@ -33,5 +33,6 @@ If you want to search for playlists, albums, artists or tracks not in your libra
 * Get [featured playlists]( {{ site.url }}/articles/featured-playlists), [charts]( {{ site.url }}/articles/charts) and [new album releases]( {{ site.url }}/articles/new-releases) from Spotify
 * Display [lyrics]( {{ site.url }}/articles/lyrics) for current track
 * [Now Playing]( {{ site.url }}/articles/now-playing): display a notification every time a track is played
+* [Follow or Unfollow]( {{ site.url }}/articles/follow-artist) an artist
 * [Automatic update]( {{ site.url }}/articles/update-library) of your library
 * Workflow [auto-update]( {{ site.url }}/articles/workflow-update)
