@@ -32,6 +32,7 @@ If you want to search for playlists, albums, artists or tracks not in your libra
 * Create artist or song [**radio playlists**]( {{ site.url }}/articles/radio-playlists) from the workflow
 * Get [featured playlists]( {{ site.url }}/articles/featured-playlists), [charts]( {{ site.url }}/articles/charts) and [new album releases]( {{ site.url }}/articles/new-releases) from Spotify
 * Display [lyrics]( {{ site.url }}/articles/lyrics) for current track
+* Display artist [biography]( {{ site.url }}/articles/biography)
 * [Now Playing]( {{ site.url }}/articles/now-playing): display a notification every time a track is played
 * [Follow or Unfollow]( {{ site.url }}/articles/follow-artist) an artist
 * [Automatic update]( {{ site.url }}/articles/update-library) of your library
