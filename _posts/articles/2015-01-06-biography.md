@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Biography"
+title: "Biography, Twitter and official website"
 date: 2015-01-06T11:39:03-04:00
 modified:
 categories: articles
@@ -15,25 +15,25 @@ toc: false
 comments: true
 ---
 
-* You can get biography for the artist right from *Artist* menu:-
+* You can get biography, see Twitter account and official website for the artist right from *Artist* menu:-
 
 <figure>
 	<img src="{{ site.url }}/images/biography1.jpg"></a>
 	<figcaption>Get biography for the artist from Artist menu.</figcaption>
 </figure>
 
-* Or use the `display_current_artist_biography`command:-
+* Or use the `biography`command:-
 
 <figure>
 	<img src="{{ site.url }}/images/biography3.jpg"></a>
-	<figcaption><i>display_current_artist_biography</i> command.</figcaption>
+	<figcaption><i>biography</i> command.</figcaption>
 </figure>
 
-* Then you get the biography in Alfred window:-
+* Then you get the biography, see the Twitter account, or official website:-
 
 <figure>
 	<img src="{{ site.url }}/images/biography2.jpg"></a>
-	<figcaption>Biography is displayed in Alfred window.</figcaption>
+	<figcaption>Biography, Twitter and official website.</figcaption>
 </figure>
 
-You can choose first option to go directly to the website.
+You can also choose option to go to LastFm web page to read the biography.
