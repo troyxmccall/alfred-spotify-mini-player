@@ -13,10 +13,7 @@ noindex: false
 
 Spotify Mini player is an [Alfred](http://www.alfredapp.com) workflow which uses a local version of your entire Spotify library stored in a database. That's the best way to fully control _your_ Spotify library!
 
-You can browse by Artist, Album or Playlist. You can also lookup for artists or album online, display lyrics, artist biographies, get related artists, get featured playlists, get charts, get new albums release, etc..
-
-
-If you want to search for playlists, albums, artists or tracks not in your library, you also can !
+You can browse by Artist, Album or Playlist. You can also lookup for artists or album online, display lyrics, artist biographies, get related artists, get featured playlists, get charts, get new albums release, etc..You can also search for playlists, albums, artists or tracks online, i.e not in your library !
 
 ## List of features
 
