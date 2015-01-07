@@ -17,7 +17,7 @@ noindex: false
 Instantaneous search in your tracks, albums, artists, <em>Your Music</em> and playlists</p>
 
   </leftside>
-  <rightside><a href="{{ site.url }}/images/index1.gif"><img src="{{ site.url }}/images/index1.gif"></a></rightside>
+  <rightside><!--<a href="{{ site.url }}/images/index1.gif">--><img src="{{ site.url }}/images/index1.jpg"></a></rightside>
 </sectionleft>
 
 
@@ -55,7 +55,7 @@ You can also <a href="{{ site.url }}/articles/remove">remove</a> tracks.</p>
 <a href="{{ site.url }}/articles/search-online" class="btn-success">Find out more</a>
 
   </leftside>
-  <rightside><a href="{{ site.url }}/images/index2.gif"><img src="{{ site.url }}/images/index2.gif"></a></rightside>
+  <rightside><!--<a href="{{ site.url }}/images/index2.gif">--><img src="{{ site.url }}/images/index2.jpg"></a></rightside>
 </sectionleft>
 
 <br>
