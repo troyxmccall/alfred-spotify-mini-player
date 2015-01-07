@@ -6,9 +6,6 @@ image:
 noindex: false
 ---
 
-
-<!-- <iframe width="300" height="215" src="//www.youtube.com/embed/W0y2aKQQk4A" frameborder="0"> </iframe>-->
-
 <sectionleft>
   <leftside>
 
@@ -82,3 +79,24 @@ You can also <a href="{{ site.url }}/articles/remove">remove</a> tracks.</p>
   </rightside>
 </sectionright>
 
+
+<br>
+<br>
+
+
+<sectionleft>
+  <youtubeleftside>
+
+<h2>See it in action !</h2>
+
+<p>See a demo of the workflow in video</p>
+
+<br>
+<a href="https://www.youtube.com/watch?v=W0y2aKQQk4A&feature=youtu.be" target="_blank" class="btn-social youtube"><i class="fa fa-youtube" aria-hidden="true"></i>See on YouTube</a>
+
+  </youtubeleftside>
+  <youtuberightside><iframe width="420" height="315" src="//www.youtube.com/embed/W0y2aKQQk4A" frameborder="0"> </iframe></youtuberightside>
+</sectionleft>
+
+<br>
+<br>

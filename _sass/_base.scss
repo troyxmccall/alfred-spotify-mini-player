@@ -360,6 +360,8 @@ sectionleft {
   @include outer-container;
   leftside { @include span-columns(4); }
   rightside { @include span-columns(8); }
+  youtubeleftside { @include span-columns(5); }
+  youtuberightside { @include span-columns(7); }
 }
 
 sectionright {
