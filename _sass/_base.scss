@@ -49,7 +49,7 @@ ins {
 a {
 	color: $link-color;
 	&:hover {
-		color: $success-color;
+		color: $green-color;
 	}
 	&:focus {
 		@extend %tab-focus;
