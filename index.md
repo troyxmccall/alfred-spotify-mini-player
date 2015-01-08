@@ -87,13 +87,9 @@ You can also <a href="{{ site.url }}/articles/remove">remove</a> tracks.</p>
 <sectionleft>
   <youtubeleftside>
 
-<h2>See it in action !</h2>
-
-<p>See a demo of the workflow in video</p>
-
-<br>
-<a href="https://www.youtube.com/watch?v=W0y2aKQQk4A&feature=youtu.be" target="_blank" class="btn-social youtube"><i class="fa fa-youtube" aria-hidden="true"></i>See on YouTube</a>
-
+<h2>Social links</h2>
+<a href="https://www.youtube.com/channel/UC57nCgpXyoW4Pze8BsMcaOg" target="_blank" class="btn-social youtube"><i class="fa fa-youtube" aria-hidden="true"></i>Follow on YouTube</a>
+<a href="https://twitter.com/TheMiniPlayer" target="_blank" class="btn-social twitter"><i class="fa fa-twitter" aria-hidden="true"></i>Follow on Twitter</a>
   </youtubeleftside>
   <youtuberightside><iframe width="420" height="315" src="//www.youtube.com/embed/W0y2aKQQk4A" frameborder="0"> </iframe></youtuberightside>
 </sectionleft>
