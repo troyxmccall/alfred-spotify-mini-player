@@ -9,12 +9,12 @@ noindex: false
 <sectionleft>
   <leftside>
 
-<h2>Lightning search in your Spotify library !</h2>
+<h2>Lightning search !</h2>
 
 <p>Search in <em>your</em> Spotify library from <a href="http://www.alfredapp.com">Alfred</a> App.
 
 <br>
-Instantaneous search in your tracks, albums, artists, <em>Your Music</em> and playlists</p>
+Instantaneous search in your tracks, albums, artists, <em>Your Music</em> and playlists.</p>
 
   </leftside>
   <rightside><!--<a href="{{ site.url }}/images/index1.gif">--><img src="{{ site.url }}/images/index1.jpg"></a></rightside>
@@ -52,7 +52,7 @@ You can also <a href="{{ site.url }}/articles/remove">remove</a> tracks.</p>
 <p>Missing something in your library? Search online for tracks, albums, artists and playlists</p>
 
 <br>
-<a href="{{ site.url }}/articles/search-online" class="btn-success">Find out more</a>
+<a href="{{ site.url }}/articles/search-online" class="btn-success">Read more</a>
 
   </leftside>
   <rightside><!--<a href="{{ site.url }}/images/index2.gif">--><img src="{{ site.url }}/images/index2.jpg"></a></rightside>
@@ -71,7 +71,7 @@ You can also <a href="{{ site.url }}/articles/remove">remove</a> tracks.</p>
 <p>Get the list of tracks queued, aka the <a href="{{ site.url }}/articles/play-queue">Play Queue</a> directly in the workflow !</p>
 
 <br>
-<a href="{{ site.url }}/articles/play-queue" class="btn-success">Find out more</a>
+<a href="{{ site.url }}/articles/play-queue" class="btn-success">Read more</a>
 
   </rightside>
 </sectionright>
@@ -90,7 +90,7 @@ You can also <a href="{{ site.url }}/articles/remove">remove</a> tracks.</p>
 <p>Check out the list of <a href="{{ site.url }}/features">features</a> and every feature explained in <a href="{{ site.url }}/articles/">articles</a></p>
 
 <br>
-<a href="{{ site.url }}/features" class="btn-success">Find out more</a>
+<a href="{{ site.url }}/features" class="btn-success">Read more</a>
 
 
   </leftside>
