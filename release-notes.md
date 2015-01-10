@@ -19,6 +19,8 @@ noindex: false
 
 * <span class="badge info">ADDED</span> [Now Playing]( {{ site.url }}/articles/now-playing): display a notification every time a track is played (or un-paused).
 
+* <span class="badge info">ADDED</span> [Play Queue]( {{ site.url }}/articles/play-queue): get the _Play Queue_ directly in the workflow.
+
 * <span class="badge info">ADDED</span> New icons
 
 * <span class="badge info">ADDED</span> Added [charts]( {{ site.url }}/articles/charts)
