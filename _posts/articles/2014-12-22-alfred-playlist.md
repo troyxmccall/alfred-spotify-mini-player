@@ -56,7 +56,7 @@ A confirmation will be asked:-
 
 ## Your Music
 
-If you want to control *Your Music* instead of *Alfred Playlist*, you can change it in the settings:-
+If you want to control _Your Music_ instead of _Alfred Playlist_, you can change it in the settings:-
 
 <figure>
 	<img src="{{ site.url }}/images/alfred-playlist-control-setting.png"></a>
