@@ -2,7 +2,7 @@
 layout: article
 title: "Control Alfred Playlist or Your Music"
 date: 2014-12-22T11:39:03-04:00
-modified: 2015-01-05T11:39:03-04:00
+modified: 2015-01-10T11:39:03-04:00
 categories: articles
 excerpt: "Use one of your playlists and control it with the workflow."
 image:
@@ -23,13 +23,12 @@ The Alfred Playlist is simply one of your playlists that you can choose and for 
 
 
 <figure>
-	<a href="{{ site.url }}/images/change-alfred-playlist.gif"><img src="{{ site.url }}/images/change-alfred-playlist.gif"></a>
+	<a href="{{ site.url }}/images/alfred-playlist-change.gif"><img src="{{ site.url }}/images/alfred-playlist-change.gif"></a>
 	<figcaption>Select or change your Alfred Playlist is easy.</figcaption>
 </figure>
 
 
 * To add a track to your Alfred Playlist select it with `fn` modifier, you'll get a menu where you can choose your _Alfred Playlist_ (or any other playlist):-
-
 
 <figure>
 	<a href="{{ site.url }}/images/alfred-playlist-fn-modifier.gif"><img src="{{ site.url }}/images/alfred-playlist-fn-modifier.gif"></a>
