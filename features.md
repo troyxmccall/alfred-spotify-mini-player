@@ -2,6 +2,7 @@
 layout: article
 permalink: /features/
 title: "Features"
+modified: 2015-01-10T11:39:03-04:00
 toc: true
 share: false
 image:
@@ -30,7 +31,8 @@ You can browse by Artist, Album or Playlist. You can also lookup for artists or 
 * Get [featured playlists]( {{ site.url }}/articles/featured-playlists), [charts]( {{ site.url }}/articles/charts) and [new album releases]( {{ site.url }}/articles/new-releases) from Spotify
 * Display [lyrics]( {{ site.url }}/articles/lyrics) for current track
 * Display artist [biography]( {{ site.url }}/articles/biography)
-* [Now Playing]( {{ site.url }}/articles/now-playing): display a notification every time a track is played
+* [Play Queue]( {{ site.url }}/articles/play-queue): get the _Play Queue_ directly in the workflow
+* [Now Playing]( {{ site.url }}/articles/now-playing): display a notification every time a track is played (or unpaused)
 * [Follow or Unfollow]( {{ site.url }}/articles/follow-artist) an artist
 * [Automatic update]( {{ site.url }}/articles/update-library) of your library
 * Workflow [auto-update]( {{ site.url }}/articles/workflow-update)

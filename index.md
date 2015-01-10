@@ -63,18 +63,15 @@ You can also <a href="{{ site.url }}/articles/remove">remove</a> tracks.</p>
 
 
 <sectionright>
-  <leftside><img src="{{ site.url }}/images/biography2.jpg"></a></leftside>
+  <leftside><img src="{{ site.url }}/images/play-queue2.jpg"></a></leftside>
   <rightside>
   
-<h2>And much more !</h2>
+<h2>Play Queue</h2>
 
-<p>Get <a href="{{ site.url }}/articles/now-playing">notifications</a> for every track played, get <a href="{{ site.url }}/articles/lyrics">lyrics</a>, artist <a href="{{ site.url }}/articles/biography">biography</a>, access <a href="{{ site.url }}/articles/featured-playlists">featured playlists</a>, <a href="{{ site.url }}/articles/charts">charts</a> and <a href="{{ site.url }}/articles/new-releases">new album releases</a>, create artist or song <a href="{{ site.url }}/articles/radio-playlists">radio playlists</a>...</p>
-
-<p>Check out the list of <a href="{{ site.url }}/features">features</a> and every feature explained in <a href="{{ site.url }}/articles/">articles</a></p>
+<p>Get <a href="{{ site.url }}/articles/play-queue">Play Queue</a> directly in the workflow ! You can see the list of tracks queued.</p>
 
 <br>
-<a href="{{ site.url }}/features" class="btn-success">Find out more</a>
-
+<a href="{{ site.url }}/play-queue" class="btn-success">Find out more</a>
 
   </rightside>
 </sectionright>
@@ -83,6 +80,26 @@ You can also <a href="{{ site.url }}/articles/remove">remove</a> tracks.</p>
 <br>
 <br>
 
+<sectionleft>
+  <leftside>
+  
+<h2>And much more !</h2>
+
+<p>Get <a href="{{ site.url }}/articles/now-playing">notifications</a> for every track played, get <a href="{{ site.url }}/articles/lyrics">lyrics</a>, artist <a href="{{ site.url }}/articles/biography">biography</a>, browse <a href="{{ site.url }}/articles/related-artists">related artists</a>, access <a href="{{ site.url }}/articles/featured-playlists">featured playlists</a>, <a href="{{ site.url }}/articles/charts">charts</a> and <a href="{{ site.url }}/articles/new-releases">new album releases</a>, create artist or song <a href="{{ site.url }}/articles/radio-playlists">radio playlists</a>...</p>
+
+<p>Check out the list of <a href="{{ site.url }}/features">features</a> and every feature explained in <a href="{{ site.url }}/articles/">articles</a></p>
+
+<br>
+<a href="{{ site.url }}/features" class="btn-success">Find out more</a>
+
+
+  </leftside>
+  <rightside><img src="{{ site.url }}/images/biography2.jpg"></a></rightside>
+</sectionleft>
+
+
+<br>
+<br>
 
 <sectionleft>
   <youtubeleftside>
