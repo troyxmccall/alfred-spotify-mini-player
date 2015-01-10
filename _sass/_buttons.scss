@@ -80,12 +80,13 @@
 	}
 }
 .btn-social {
-	$social: 
+	$social:
     (facebook, $facebook-color),
 		(flickr, $flickr-color),
 		(foursquare, $foursquare-color),
 		(google-plus, $google-plus-color),
 		(instagram, $instagram-color),
+		(paypal, $paypal-color),
 		(linkedin, $linkedin-color),
 		(pinterest, $pinterest-color),
 		(rss, $rss-color),
@@ -103,7 +104,7 @@
 	@each $socialnetwork, $color in $social {
 		i.fa-#{$socialnetwork} {
 	    color: $color;
-    }    
+    }
 	}
 	&:hover {
 		color: $white !important;
@@ -115,8 +116,8 @@
 		    @each $socialnetwork, $color in $social {
 					i.fa-#{$socialnetwork} {
 				    color: $white;
-			    }    
+			    }
 				}
-	    }    
+	    }
 	}
 }
