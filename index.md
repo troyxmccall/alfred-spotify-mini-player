@@ -88,13 +88,8 @@ You can also <a href="{{ site.url }}/articles/remove">remove</a> tracks.</p>
   <youtubeleftside>
 
 <h2>Social links</h2>
-<a href="https://www.youtube.com/channel/UC57nCgpXyoW4Pze8BsMcaOg" target="_blank" class="btn-social youtube"><i class="fa fa-youtube" aria-hidden="true"></i>Follow on YouTube</a>
-<a href="https://twitter.com/TheMiniPlayer" target="_blank" class="btn-social twitter"><i class="fa fa-twitter" aria-hidden="true"></i>Follow on Twitter</a>
-
-
-
-<a href="https://www.youtube.com/channel/UC57nCgpXyoW4Pze8BsMcaOg" target="_blank" class="btn-social paypal"><i class="fa fa-paypal" aria-hidden="true"></i>Donation </a>
-
+<a href="https://www.youtube.com/channel/UC57nCgpXyoW4Pze8BsMcaOg" target="_blank" class="btn-social youtube"><i class="fa fa-youtube" aria-hidden="true"></i> Follow on YouTube</a>
+<a href="https://twitter.com/TheMiniPlayer" target="_blank" class="btn-social twitter"><i class="fa fa-twitter" aria-hidden="true"></i> Follow on Twitter</a>
   </youtubeleftside>
   <youtuberightside><iframe width="420" height="315" src="//www.youtube.com/embed/W0y2aKQQk4A" frameborder="0"> </iframe></youtuberightside>
 </sectionleft>
