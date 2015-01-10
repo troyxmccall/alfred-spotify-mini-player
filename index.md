@@ -68,10 +68,10 @@ You can also <a href="{{ site.url }}/articles/remove">remove</a> tracks.</p>
   
 <h2>Play Queue</h2>
 
-<p>Get <a href="{{ site.url }}/articles/play-queue">Play Queue</a> directly in the workflow ! You can see the list of tracks queued.</p>
+<p>Get the list of tracks queued, aka the <a href="{{ site.url }}/articles/play-queue">Play Queue</a> directly in the workflow !</p>
 
 <br>
-<a href="{{ site.url }}/play-queue" class="btn-success">Find out more</a>
+<a href="{{ site.url }}/articles/play-queue" class="btn-success">Find out more</a>
 
   </rightside>
 </sectionright>
