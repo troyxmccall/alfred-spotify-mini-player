@@ -24,13 +24,14 @@ $comp-color                  	: complement($base-color);
 $border-color                	: #ddd;
 $white                       	: #fff;
 $black                       	: #4b4b4b;
+$green-color                	: #639000;
 $link-color                  	: #222;
 $primary-color               	: $black;
-$success-color               	: #81B406;
+$success-color               	: $green-color;
 $warning-color               	: #f1c40f;
 $danger-color                	: #e74c3c;
 $info-color                  	: #3498db;
-$green-color                	: $success-color;
+
 
 $table-border-color          	: $border-color;
 $table-border                	: 1px solid $table-border-color;
