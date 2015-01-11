@@ -85,7 +85,7 @@ You can also <a href="{{ site.url }}/articles/remove">remove</a> tracks.</p>
   
 <h2>And much more !</h2>
 
-<p>Get <a href="{{ site.url }}/articles/now-playing">notifications</a> for every track played, get <a href="{{ site.url }}/articles/lyrics">lyrics</a>, artist <a href="{{ site.url }}/articles/biography">biography</a>, browse <a href="{{ site.url }}/articles/related-artists">related artists</a>, access <a href="{{ site.url }}/articles/featured-playlists">featured playlists</a>, <a href="{{ site.url }}/articles/charts">charts</a> and <a href="{{ site.url }}/articles/new-releases">new album releases</a>, create artist or song <a href="{{ site.url }}/articles/radio-playlists">radio playlists</a>...</p>
+<p>Display <a href="{{ site.url }}/articles/current-track">current track</a> information , get <a href="{{ site.url }}/articles/now-playing">notifications</a> for every track played, get <a href="{{ site.url }}/articles/lyrics">lyrics</a>, artist <a href="{{ site.url }}/articles/biography">biography</a>, browse <a href="{{ site.url }}/articles/related-artists">related artists</a>, access <a href="{{ site.url }}/articles/featured-playlists">featured playlists</a>, <a href="{{ site.url }}/articles/charts">charts</a> and <a href="{{ site.url }}/articles/new-releases">new album releases</a>, create artist or song <a href="{{ site.url }}/articles/radio-playlists">radio playlists</a>...</p>
 
 <p>Check out the list of <a href="{{ site.url }}/features">features</a> and every feature explained in <a href="{{ site.url }}/articles/">articles</a></p>
 

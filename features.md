@@ -19,7 +19,8 @@ You can browse by Artist, Album or Playlist. You can also lookup for artists or 
 ## List of features
 
 * Full control of albums, artists or tracks and playlists in your library
-* [**Search Online**]( {{ site.url }}/articles/search-online) (i.e not in your library) for albums, artists or tracks and playlists
+* [Current track]( {{ site.url }}/articles/current-track): display current track information and various options
+* [**Search online**]( {{ site.url }}/articles/search-online) (i.e not in your library) for albums, artists or tracks and playlists
 * [**Add**]( {{ site.url }}/articles/add) tracks, albums or even entire playlists to _Your Music_ or any of your playlists directly
 * [**Remove**]( {{ site.url }}/articles/remove) current track from _Your Music_ or one of your playlists
 * Full support of [**hotkeys**]( {{ site.url }}/articles/hotkeys)
