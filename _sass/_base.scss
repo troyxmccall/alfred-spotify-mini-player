@@ -369,3 +369,38 @@ sectionright {
   leftside { @include span-columns(8); }
   rightside { @include span-columns(4); }
 }
+
+  /* Social networking brand colors */
+
+  $social:
+  (facebook, $facebook-color),
+  (flickr, $flickr-color),
+  (foursquare, $foursquare-color),
+  (google-plus, $google-plus-color),
+  (instagram, $instagram-color),
+  (linkedin, $linkedin-color),
+  (pinterest, $pinterest-color),
+  (rss, $rss-color),
+  (tumblr, $tumblr-color),
+  (twitter, $twitter-color),
+  (github, $github-color),
+  (vimeo, $vimeo-color),
+  (youtube, $youtube-color);
+  @each $socialnetwork, $color in $social {
+    .#{$socialnetwork} {
+      color: $color;
+      &:hover {
+        color: darken($color, 20);
+      }
+    }
+  }
+
+/* Social network links */
+
+.social-links {
+  clear: left;
+  @include media($large) {
+    float: right;
+    clear: none;
+  }
+}
