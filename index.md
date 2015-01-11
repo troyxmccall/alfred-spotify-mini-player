@@ -66,7 +66,7 @@ You can also <a href="{{ site.url }}/articles/remove">remove</a> tracks.</p>
   <leftside><img src="{{ site.url }}/images/play-queue2.jpg"></a></leftside>
   <rightside>
   
-<h2>Play Queue</h2>
+<h2>Play queue</h2>
 
 <p>Get the list of tracks queued, aka the <a href="{{ site.url }}/articles/play-queue">Play Queue</a> directly in the workflow !</p>
 
