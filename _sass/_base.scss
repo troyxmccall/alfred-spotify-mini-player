@@ -358,10 +358,8 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 // Added by me
 sectionleft {
   @include outer-container;
-  leftside { @include span-columns(4); }
+  leftside { @include span-columns(4);  }
   rightside { @include span-columns(8); }
-  youtubeleftside { @include span-columns(5); }
-  youtuberightside { @include span-columns(7); }
 }
 
 sectionright {

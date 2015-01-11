@@ -101,13 +101,3 @@ You can also <a href="{{ site.url }}/articles/remove">remove</a> tracks.</p>
 <br>
 <br>
 
-<sectionleft>
-  <youtubeleftside>
-
-<h2>See it in action !</h2>
-  </youtubeleftside>
-  <youtuberightside><iframe width="420" height="315" src="//www.youtube.com/embed/W0y2aKQQk4A" frameborder="0"> </iframe></youtuberightside>
-</sectionleft>
-
-<br>
-<br>
