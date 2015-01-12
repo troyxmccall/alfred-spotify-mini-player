@@ -13,7 +13,7 @@ image:
 noindex: false
 toc: true
 comments: true
-bulletlist : true
+onhomepage : true
 ---
 
 ## Refresh Library

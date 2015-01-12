@@ -13,7 +13,7 @@ image:
 noindex: false
 toc: false
 comments: true
-bulletlist : false
+onhomepage : false
 ---
 
 * You can get the _Play Queue_ as in the Spotify desktop application from the *Main* menu:-

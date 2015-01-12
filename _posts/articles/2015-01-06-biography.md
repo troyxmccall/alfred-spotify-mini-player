@@ -13,7 +13,7 @@ image:
 noindex: false
 toc: false
 comments: true
-bulletlist : true
+onhomepage : true
 ---
 
 * You can get biography, see Twitter account and official website for the artist right from *Artist* menu:-

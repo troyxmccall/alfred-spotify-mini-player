@@ -1,21 +1,16 @@
 # Site navigation links
 
 - title: Features
-  url: /features/
+  url: /#features
   excerpt: "List of all features"
   image: teaser-features.jpg
 
 - title: Setup
   url: /setup/
-  excerpt: "How to set up the workflow"
+  excerpt: "How to setup the workflow"
   image: teaser-setup.jpg
 
-- title: Articles
-  url: /articles/
-  excerpt: "All features explained in articles."
-  image: teaser-articles.jpg
-  
 - title: Blog
   url: /blog/
-  excerpt: "The blog."
+  excerpt: "The blog with all news."
   image: teaser-blog.jpg

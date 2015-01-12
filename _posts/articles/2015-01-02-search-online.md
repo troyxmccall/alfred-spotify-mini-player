@@ -13,7 +13,7 @@ image:
 noindex: false
 toc: false
 comments: true
-bulletlist : false
+onhomepage : false
 ---
 
 * You can search online, i.e not necessarily in your Library from the *main* menu:-

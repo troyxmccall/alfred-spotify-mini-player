@@ -80,11 +80,13 @@ You can also <a href="{{ site.url }}/articles/remove">remove</a> tracks.</p>
 <br>
 <br>
 
-<h2>And much more !</h2>
+<a name="features"></a>
+
+<h2>All features</h2>
 
 <div class="bullets">
 	{% for post in site.posts %}
-	{% if post.bulletlist %}	
+	{% if post.onhomepage %}	
 	<div class="bullet three-col-bullet">
 		<div class="bullet-icon">
 			<a href="{{ site.url }}{{ post.url }}"><img src="{{ site.url }}/images/bullet-{{ post.title | slugify }}.png" alt=""></a>

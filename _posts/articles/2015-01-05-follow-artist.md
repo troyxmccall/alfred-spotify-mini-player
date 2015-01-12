@@ -13,7 +13,7 @@ image:
 noindex: false
 toc: false
 comments: true
-bulletlist : true
+onhomepage : true
 ---
 
 * You can follow (or unfollow) an artist in the *Artist* menu:-

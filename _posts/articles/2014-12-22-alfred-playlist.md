@@ -4,7 +4,7 @@ title: "Control Alfred Playlist or Your Music"
 date: 2014-12-22T11:39:03-04:00
 modified: 2015-01-10T11:39:03-04:00
 categories: articles
-excerpt: "Use one of your playlists and control it with the workflow, or control Your Music if you prefer."
+excerpt: "Control Your Music, or a favorite playlist."
 image:
   teaser: teaser-alfred-playlist.jpg
   feature:
@@ -13,7 +13,7 @@ image:
 noindex: false
 toc: true
 comments: true
-bulletlist : true
+onhomepage : true
 ---
 
 ## Alfred Playlist

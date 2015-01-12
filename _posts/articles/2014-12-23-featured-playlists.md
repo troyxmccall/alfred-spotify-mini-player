@@ -13,7 +13,7 @@ image:
 noindex: false
 toc: false
 comments: true
-bulletlist : true
+onhomepage : true
 ---
 
 * You can browse the featured playlists from Spotify in the *playlists* menu:-

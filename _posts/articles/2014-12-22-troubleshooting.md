@@ -13,12 +13,12 @@ image:
 noindex: false
 toc: false
 comments: true
-bulletlist : false
+onhomepage : true
 ---
 
 If you experience an issue with the workflow, follow these steps:-
 
-* Use the `spot_mini_debug` command (note that if an exception occurs, it is automatically called). This will generate a `spot_mini_debug.tgz` file in your _Downloads_ directory. 
+* Use the `spot_mini_debug` keyword input (note that if an exception occurs, it is automatically called). This will generate a `spot_mini_debug.tgz` file in your _Downloads_ directory. 
 
 <figure>
 	<img src="{{ site.url }}/images/spot_mini_debug.png"></a>

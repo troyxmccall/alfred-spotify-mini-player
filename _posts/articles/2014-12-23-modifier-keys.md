@@ -4,7 +4,7 @@ title: "Modifier keys"
 date: 2014-12-23T11:39:03-04:00
 modified: 2015-01-05T11:39:03-04:00
 categories: articles
-excerpt: "Lear how to use modifiers, shortcuts for common actions."
+excerpt: "Support of modifier keys, shortcuts for common actions."
 image:
   teaser: teaser-modifier-keys.jpg
   feature:
@@ -13,7 +13,7 @@ image:
 noindex: false
 toc: false
 comments: true
-bulletlist : false
+onhomepage : true
 ---
 
 Alfred modifiers are specific actions you can trigger when pressing special keys when selecting a track:
@@ -22,7 +22,7 @@ Alfred modifiers are specific actions you can trigger when pressing special keys
 
 * Select a track with `⌘` (cmd key) to play the artist
 
-* Select a track with `ctrl` to lookup the corresponding artist 'online'
+* Select a track with `^` (ctrl key) to lookup the corresponding artist 'online'
 
 * Select a track with `fn` (function key) to add the track to either _Your Music_, or any of your playlists (you can even create a new one)
 
@@ -35,5 +35,5 @@ Example:-
 
 <figure>
 	<img src="{{ site.url }}/images/modifier-keys1.gif"></a>
-	<figcaption>Use ⌥ on a track to play the Album.</figcaption>
+	<figcaption>Use ⌥ on a track to play the album.</figcaption>
 </figure>
