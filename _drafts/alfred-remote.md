@@ -13,6 +13,7 @@ image:
 noindex: false
 toc: false
 comments: true
+onhomepage : true
 ---
 
 The Spotify Mini Player has full support of _Alfred Remote_, for every command. (If you think a remote trigger is missing, open )
