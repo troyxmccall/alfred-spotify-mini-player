@@ -58,18 +58,4 @@ You can also <a href="{{ site.url }}/articles/remove">remove</a> tracks.</p>
 
 <h2>All features</h2>
 
-<div class="bullets">
-	{% for post in site.posts %}
-	{% if post.onhomepage %}	
-	<div class="bullet three-col-bullet">
-		<div class="bullet-icon">
-			<a href="{{ site.url }}{{ post.url }}"><img src="{{ site.url }}/images/bullet-{{ post.title | slugify }}.png" alt=""></a>
-		</div><!-- /.bullet-icon -->
-		<div class="bullet-content">
-			<h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
-			<p>{{ post.excerpt | remove: '<p>' | remove: '</p>'}}</p>
-		</div><!-- /.bullet-content -->
-	</div><!-- /.bullet -->
-	{% endif %}
-	{% endfor %}
-</div><!-- /.bullets -->
+{% include home-features-list-bullets.html %}
