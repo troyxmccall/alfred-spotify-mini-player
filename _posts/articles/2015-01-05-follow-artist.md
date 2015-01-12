@@ -4,7 +4,7 @@ title: "Follow or Unfollow artists"
 date: 2015-01-05T11:39:03-04:00
 modified:
 categories: articles
-excerpt: "Follow or Unfollow artists."
+excerpt: "Follow or unfollow artists."
 image:
   teaser: teaser-follow.jpg
   feature:
@@ -13,6 +13,7 @@ image:
 noindex: false
 toc: false
 comments: true
+bulletlist : true
 ---
 
 * You can follow (or unfollow) an artist in the *Artist* menu:-

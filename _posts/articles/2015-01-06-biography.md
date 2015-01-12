@@ -4,7 +4,7 @@ title: "Biography, Twitter and official website"
 date: 2015-01-06T11:39:03-04:00
 modified:
 categories: articles
-excerpt: "Get the biography of artist in Alfred."
+excerpt: "Read the biography, get the Twitter and official web page of any artist."
 image:
   teaser: teaser-biography.jpg
   feature:
@@ -13,6 +13,7 @@ image:
 noindex: false
 toc: false
 comments: true
+bulletlist : true
 ---
 
 * You can get biography, see Twitter account and official website for the artist right from *Artist* menu:-

@@ -4,7 +4,7 @@ title: "Play Queue"
 date: 2015-01-10T11:39:03-04:00
 modified:
 categories: articles
-excerpt: "Get the play queue inside the workflow."
+excerpt: "Get the list of queued tracks directly in the workflow."
 image:
   teaser: teaser-play-queue.jpg
   feature:
@@ -13,6 +13,7 @@ image:
 noindex: false
 toc: false
 comments: true
+bulletlist : false
 ---
 
 * You can get the _Play Queue_ as in the Spotify desktop application from the *Main* menu:-

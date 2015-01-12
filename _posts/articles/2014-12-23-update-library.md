@@ -1,10 +1,10 @@
 ---
 layout: article
-title: "Library Update"
+title: "Library update"
 date: 2014-12-23T11:39:03-04:00
 modified:
 categories: articles
-excerpt: "How to update your Library."
+excerpt: "Fast and automatic library updates (with artworks downloaded in background)."
 image:
   teaser: teaser-refresh-library.jpg
   feature:
@@ -13,6 +13,7 @@ image:
 noindex: false
 toc: true
 comments: true
+bulletlist : true
 ---
 
 ## Refresh Library

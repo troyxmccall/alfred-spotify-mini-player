@@ -13,6 +13,7 @@ image:
 noindex: false
 toc: false
 comments: true
+bulletlist : false
 ---
 
 Alfred modifiers are specific actions you can trigger when pressing special keys when selecting a track:

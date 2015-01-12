@@ -9,8 +9,8 @@
 	.two-col-bullet {
 		@include media($large) {
 			@include span-columns(6);
-			@include omega(2n);  
-		} 
+			@include omega(2n);
+		}
 	}
 	.three-col-bullet {
 		@include media($large) {
@@ -29,7 +29,7 @@
 	.bullet-icon {
 		float: left;
 		background: $base-color;
-		padding: $icon-bullet-size /4;
+		padding: $icon-bullet-size /20;
 		border-radius: 50%;
 		width: $icon-bullet-size * 1.25;
 		height: $icon-bullet-size * 1.25;

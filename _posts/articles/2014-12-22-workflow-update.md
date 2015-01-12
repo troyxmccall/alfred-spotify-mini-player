@@ -4,7 +4,7 @@ title: "Workflow Update"
 date: 2014-12-22T11:39:03-04:00
 modified:
 categories: articles
-excerpt: "Check for workflow update."
+excerpt: "Automatic check for workflow update."
 image:
   teaser: teaser-workflow-update.jpg
   feature:
@@ -13,6 +13,7 @@ image:
 noindex: false
 toc: false
 comments: true
+bulletlist : true
 ---
 
 

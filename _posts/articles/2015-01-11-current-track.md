@@ -13,6 +13,7 @@ image:
 noindex: false
 toc: false
 comments: true
+bulletlist : true
 ---
 
 * You can get the _current track_ from *Main* menu:-

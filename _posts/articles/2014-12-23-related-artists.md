@@ -4,7 +4,7 @@ title: "Related Artists"
 date: 2014-12-23T11:39:03-04:00
 modified:
 categories: articles
-excerpt: "Get the list of related artists."
+excerpt: "Get the list of related artists for any artist."
 image:
   teaser: teaser-related-artists.jpg
   feature:
@@ -13,6 +13,7 @@ image:
 noindex: false
 toc: false
 comments: true
+bulletlist : true
 ---
 
 * You can browse the related artists in the *artist* menu:-

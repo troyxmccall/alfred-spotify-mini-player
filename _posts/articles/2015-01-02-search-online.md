@@ -4,7 +4,7 @@ title: "Search Online"
 date: 2015-01-02T11:39:03-04:00
 modified:
 categories: articles
-excerpt: "Search Online for Albums, Artists or Tracks and even Playlists."
+excerpt: "Search online for albums, artists, tracks and even playlists."
 image:
   teaser: teaser-search-online.jpg
   feature:
@@ -13,6 +13,7 @@ image:
 noindex: false
 toc: false
 comments: true
+bulletlist : false
 ---
 
 * You can search online, i.e not necessarily in your Library from the *main* menu:-

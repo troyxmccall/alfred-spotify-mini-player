@@ -4,7 +4,7 @@ title: "Featured Playlists"
 date: 2014-12-23T11:39:03-04:00
 modified: 2015-01-05T11:39:03-04:00
 categories: articles
-excerpt: "Get the featured playlists from Spotify in your country or any other country worldwide."
+excerpt: "Get the featured playlists in your country or any other country."
 image:
   teaser: teaser-featured-playlists.jpg
   feature:
@@ -13,6 +13,7 @@ image:
 noindex: false
 toc: false
 comments: true
+bulletlist : true
 ---
 
 * You can browse the featured playlists from Spotify in the *playlists* menu:-

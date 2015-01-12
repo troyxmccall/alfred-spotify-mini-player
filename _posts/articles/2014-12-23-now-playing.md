@@ -4,7 +4,7 @@ title: "Now Playing"
 date: 2014-12-23T11:39:03-04:00
 modified:
 categories: articles
-excerpt: "Display a notification for listened tracks."
+excerpt: "Display an osx notification for listened tracks."
 image:
   teaser: teaser-now-playing.jpg
   feature:
@@ -13,6 +13,7 @@ image:
 noindex: false
 toc: false
 comments: true
+bulletlist : true
 ---
 
 * You can enable "Now Playing" notifications (enabled by default), to get a notification every time a song changes:-

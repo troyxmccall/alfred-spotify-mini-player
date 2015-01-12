@@ -13,6 +13,7 @@ image:
 noindex: false
 toc: false
 comments: true
+bulletlist : true
 ---
 
 * You can create an "artist radio" playlist for an artist in the *artist* menu:-
