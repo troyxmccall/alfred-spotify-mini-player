@@ -20,10 +20,7 @@ Instantaneous search in your tracks, albums, artists, <em>Your Music</em> and pl
   <rightside><!--<a href="{{ site.url }}/images/index1.gif">--><img src="{{ site.url }}/images/index1.jpg"></a></rightside>
 </sectionleft>
 
-
-<br>
-<br>
-
+<hr>
 
 <sectionright>
   <leftside><img src="{{ site.url }}/images/index3.jpg"></a></leftside>
@@ -40,8 +37,7 @@ You can also <a href="{{ site.url }}/articles/remove">remove</a> tracks.</p>
 </sectionright>
 
 
-<br>
-<br>
+<hr>
 
 
 <sectionleft>
@@ -58,9 +54,7 @@ You can also <a href="{{ site.url }}/articles/remove">remove</a> tracks.</p>
   <rightside><!--<a href="{{ site.url }}/images/index2.gif">--><img src="{{ site.url }}/images/index2.jpg"></a></rightside>
 </sectionleft>
 
-<br>
-<br>
-
+<hr>
 
 <a name="features"></a>
 
