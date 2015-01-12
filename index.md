@@ -38,8 +38,6 @@ You can also <a href="{{ site.url }}/articles/remove">remove</a> tracks.</p>
 
 
 <hr>
-
-
 <sectionleft>
   <leftside>
 
