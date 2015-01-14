@@ -8,7 +8,7 @@ excerpt: "What to do when you're facing an issue."
 image:
   teaser: teaser-troubleshooting.jpg
   feature:
-  credit: 
+  credit:
   creditlink:
 noindex: false
 toc: false
@@ -18,7 +18,7 @@ onhomepage : true
 
 If you experience an issue with the workflow, follow these steps:-
 
-* Use the `spot_mini_debug` keyword input (note that if an exception occurs, it is automatically called). This will generate a `spot_mini_debug.tgz` file in your _Downloads_ directory. 
+* Use the `spot_mini_debug` keyword input (note that if an exception occurs, it is automatically called). This will generate a `spot_mini_debug.tgz` file in your _Downloads_ directory.
 
 <figure>
 	<img src="{{ site.url }}/images/spot_mini_debug.png"></a>
@@ -27,7 +27,7 @@ If you experience an issue with the workflow, follow these steps:-
 
 * Send the `spot_mini_debug.tgz` to this [email](mailto:alfred.spotify.mini.player@gmail.com) (you can also use the _Send an email to the author_ option when using `spot_mini_debug`)
 
-**Note:** With the `spot_mini_debug.tgz`, I'll have access to your Spotify library (but not your credentials), this is for the time of investigation. Once investigation, you can regenerate a _Client Secret_, as explained on the [Spotify Application page](https://developer.spotify.com/my-applications):-
+**Note:** With the `spot_mini_debug.tgz`, I'll have access to your Spotify library (but not your Spotify password, don't worry :smile:). This is only for the time of investigation. Once investigation is over, you can regenerate a _Client Secret_, as explained in the [Spotify Application page](https://developer.spotify.com/my-applications):-
 
 <figure>
 	<img src="{{ site.url }}/images/application_regenerate_key.png"></a>
