@@ -25,10 +25,10 @@ Instantaneous search in your tracks, albums, artists, <em>Your Music</em> and pl
 <sectionright>
   <leftside><img src="{{ site.url }}/images/index3.jpg"></a></leftside>
   <rightside>
-  
+
 <h2>Full control of your playlists !</h2>
 
-<p>Browse and launch all your playlists
+<p>Browse, launch, follow or even delete any of your playlists
 <br>
 <a href="{{ site.url }}/articles/add">Add</a> tracks, album or even playlists to any of your playlist, or <em>Your Music</em> right from the workflow.
 You can also <a href="{{ site.url }}/articles/remove">remove</a> tracks.</p>
@@ -43,7 +43,7 @@ You can also <a href="{{ site.url }}/articles/remove">remove</a> tracks.</p>
 
 <h2>Search anything online !</h2>
 
-<p>Missing something in your library? Search online for tracks, albums, artists and playlists</p>
+<p>Missing something in your library? Search online for tracks, albums, artists and playlists. Follow new playlists right from the workflow.</p>
 
 <br>
 <a href="{{ site.url }}/articles/search-online" class="btn-success">Read more</a>
