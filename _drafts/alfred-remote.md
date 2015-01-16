@@ -1,14 +1,14 @@
 ---
 layout: article
 title: "Alfred Remote"
-date: 2015-01-06T11:39:03-04:00
+date: 2015-01-06
 modified:
 categories: articles
 excerpt: "Alfred Remote Support."
 image:
   teaser: teaser-alfred-remote.jpg
   feature:
-  credit: 
+  credit:
   creditlink:
 noindex: false
 toc: false
@@ -16,7 +16,7 @@ comments: true
 onhomepage : true
 ---
 
-The Spotify Mini Player has full support of _Alfred Remote_, for every command. (If you think a remote trigger is missing, open )
+The Spotify Mini Player has full support of _Alfred Remote_, for every command.
 
 * This is the complete list of _remote triggers_ as of now:-
 
