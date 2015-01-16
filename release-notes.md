@@ -35,6 +35,8 @@ noindex: false
 
 * <span class="badge info">ADDED</span> [Follow or Unfollow]( {{ site.url }}/articles/follow-artist) an artist
 
+* <span class="badge info">ADDED</span> [Follow or remove]( {{ site.url }}/articles/follow-or-remove-playlist) a playlist
+
 * <span class="badge success">IMPROVED</span> And many more improvements and bug fixes...
 
 5.2:
@@ -63,7 +65,7 @@ noindex: false
 
 5.1.1:
 
-* <span class="badge success">IMPROVED</span> Added more validations for authentication (check length is 32, check that Client Secret is different than Client ID). 
+* <span class="badge success">IMPROVED</span> Added more validations for authentication (check length is 32, check that Client Secret is different than Client ID).
 
 * <span class="badge info">ADDED</span> Added command *spot_mini_reset* to reset settings
 
@@ -168,7 +170,7 @@ noindex: false
 
 * <span class="badge info">ADDED</span> New theme
 
-* <span class="badge info">ADDED</span> Shortcuts to Settings/Alfred Playlist/Playlists (need to configure hotkeys) 
+* <span class="badge info">ADDED</span> Shortcuts to Settings/Alfred Playlist/Playlists (need to configure hotkeys)
 
 4.3.6:
 
@@ -225,7 +227,7 @@ noindex: false
 
 4.1.2:
 
-* <span class="badge info">ADDED</span> Add spot_mini_issue command to report a bug or propose enhancement. 
+* <span class="badge info">ADDED</span> Add spot_mini_issue command to report a bug or propose enhancement.
 
 * <span class="badge danger">FIXED</span> Fix a potential issue with Library update.
 
@@ -243,7 +245,7 @@ noindex: false
 
 4.0.1:
 
-* <span class="badge danger">FIXED</span> Fixed a problem where notifications are not working 
+* <span class="badge danger">FIXED</span> Fixed a problem where notifications are not working
 
 4.0:
 
@@ -263,7 +265,7 @@ noindex: false
 
 * <span class="badge info">ADDED</span> Check for update in Settings
 
-* <span class="badge success">IMPROVED</span> Various enhancements 
+* <span class="badge success">IMPROVED</span> Various enhancements
 
 3.8.5:
 
@@ -303,7 +305,7 @@ noindex: false
 
 3.7:
 
-* <span class="badge success">IMPROVED</span> Top list is now a playlist like any others. 
+* <span class="badge success">IMPROVED</span> Top list is now a playlist like any others.
 
 * <span class="badge success">IMPROVED</span> Now check if track is playable before displaying it
 
@@ -383,7 +385,7 @@ noindex: false
 
 * <span class="badge success">IMPROVED</span> Using own Spotify app <spotify:app:miniplayer>. Nore more need to do manual install, this is automatically done. Using this allows more control and less hacking to make it work
 * <span class="badge info">ADDED</span> New *random* command, it will launch a random track from any of your playlists
-* <span class="badge info">ADDED</span> New *star* command, it will star the current track 
+* <span class="badge info">ADDED</span> New *star* command, it will star the current track
 
 2.2:
 
