@@ -45,13 +45,13 @@ noindex: false
 
 * <span class="badge info">ADDED</span> Added Create Song Radio playlist feature (number of tracks is configurable)
 
-* <span class="badge info">ADDED</span> Added command *artist_radio* to create artist radio playlist from current artist
+* <span class="badge info">ADDED</span> Added command `artist_radio` to create artist radio playlist from current artist
 
-* <span class="badge info">ADDED</span> Added command *song_radio* to create song radio playlist from current track
+* <span class="badge info">ADDED</span> Added command `song_radio` to create song radio playlist from current track
 
-* <span class="badge success">IMPROVED</span> Continue using the workflow while updating library (playlist, all playlists or Your Music)!
+* <span class="badge success">IMPROVED</span> Continue using the workflow while updating library (playlist, all playlists or _Your Music_)!
 
-* <span class="badge info">ADDED</span> Added command *lyrics* to get lyrics from current track
+* <span class="badge info">ADDED</span> Added command `lyrics` to get lyrics from current track
 
 * <span class="badge info">ADDED</span> New sub-menu for Current Track (hotkey available for quick access)
 
@@ -67,7 +67,7 @@ noindex: false
 
 * <span class="badge success">IMPROVED</span> Added more validations for authentication (check length is 32, check that Client Secret is different than Client ID).
 
-* <span class="badge info">ADDED</span> Added command *spot_mini_reset* to reset settings
+* <span class="badge info">ADDED</span> Added command `spot_mini_reset` to reset settings
 
 5.1:
 
@@ -79,9 +79,9 @@ noindex: false
 
 * <span class="badge success">IMPROVED</span> Using now Spotify WEB API instead of Spotify App API
 
-* <span class="badge success">IMPROVED</span> Using OAuth 2.0 authentication
+* <span class="badge success">IMPROVED</span> Using _OAuth 2.0_ authentication
 
-* <span class="badge info">ADDED</span> Control Your Music, you can choose to control the Alfred Playlist or Your Music now
+* <span class="badge info">ADDED</span> Control _Your Music_, you can choose to control the Alfred Playlist or _Your Music_ now
 
 * <span class="badge info">ADDED</span> Featured Playlists in your country, US and UK
 
@@ -112,11 +112,11 @@ noindex: false
 
 4.4.9:
 
-* <span class="badge info">ADDED</span> Get a maximum of 1000 related artists (see https://github.com/vdesabou/alfred-spotify-mini-player/issues/22)
+* <span class="badge info">ADDED</span> Get a maximum of 1000 related artists
 
 4.4.8:
 
-* <span class="badge danger">FIXED</span> Temporarily fixed problem with update library (see https://github.com/vdesabou/alfred-spotify-mini-player/issues/22)
+* <span class="badge danger">FIXED</span> Temporarily fixed problem with update library
 
 
 4.4.7:
@@ -125,7 +125,7 @@ noindex: false
 
 4.4.6:
 
-* <span class="badge danger">FIXED</span> Fixed spot_mini_debug
+* <span class="badge danger">FIXED</span> Fixed `spot_mini_debug`
 
 4.4.5:
 
@@ -162,7 +162,7 @@ noindex: false
 
 * <span class="badge info">ADDED</span> New command to unstar a track
 
-* <span class="badge info">ADDED</span> Added new command (with external trigger) spot_mini_update_library to update library
+* <span class="badge info">ADDED</span> Added new command (with external trigger) `spot_mini_update_library` to update library
 
 * <span class="badge success">IMPROVED</span> Automatically update Alfred Playlist after adding track, album or playlist
 
@@ -178,7 +178,7 @@ noindex: false
 
 4.3.5:
 
-* <span class="badge danger">FIXED</span> Fix issue with spot_mini_add_to_alfred_playlist command
+* <span class="badge danger">FIXED</span> Fix issue with `add_current_track_to_alfred_playlist_or_your_music command
 
 4.3.4:
 
@@ -200,7 +200,7 @@ noindex: false
 
 4.3:
 
-* <span class="badge info">ADDED</span> New command "spot_mini_add_to_alfred_playlist": Add current track to Alfred Playlist
+* <span class="badge info">ADDED</span> New command `add_current_track_to_alfred_playlist_or_your_music`: Add current track to Alfred Playlist
 
 * <span class="badge success">IMPROVED</span> Modifer action are now working on the now playing track (result which has the play/pause option)
 
@@ -223,7 +223,7 @@ noindex: false
 
 4.2:
 
-* <span class="badge success">IMPROVED</span> Implemented suggestions described in https://github.com/vdesabou/alfred-spotify-mini-player/issues/14
+* <span class="badge success">IMPROVED</span> Implemented suggestions described in <a href="https://github.com/vdesabou/alfred-spotify-mini-player/issues/14">issue 14</a>
 
 4.1.2:
 
@@ -237,7 +237,7 @@ noindex: false
 
 4.1:
 
-* <span class="badge success">IMPROVED</span> Improved Mini player App. Rmoved configuration of country code, it is now done automatically.
+* <span class="badge success">IMPROVED</span> Improved Mini player App. Removed configuration of country code, it is now done automatically.
 
 4.0.2:
 
@@ -331,19 +331,17 @@ noindex: false
 
 * <span class="badge success">IMPROVED</span> No more need to copy JSON data! Just click on "Update library"
 
-* <span class="badge info">ADDED</span> Added spot_mini_kill command to kill update library if it is stuck
+* <span class="badge info">ADDED</span> Added `spot_mini_kill` command to kill update library if it is stuck
 
 3.1:
 
 * <span class="badge success">IMPROVED</span> Moving to spotify API 1.x: no more 200 tracks limitation on playlists
 
-* <span class="badge info">ADDED</span> Added spot_mini_debug command to help troubleshooting
+* <span class="badge info">ADDED</span> Added `spot_mini_debug` command to help troubleshooting
 
 * <span class="badge success">IMPROVED</span> Improved robustness and error detections
 
 3.0:
-
-* <span class="badge success">IMPROVED</span> Major update!!
 
 * <span class="badge info">ADDED</span> Major speed improvements. Using a library with 18000 tracks, search scope set to ALL, with artworks displayed, it takes 150ms to return 50 results
 
@@ -464,7 +462,6 @@ noindex: false
 
 * <span class="badge info">ADDED</span> Added Browse by Playlists (if playlists.json is configured)
 * <span class="badge info">ADDED</span> Added configuration for Max number of results
-* <span class="badge success">IMPROVED</span> Code cleaning (using now workflows class from David Fergusson, awesome!)
 * <span class="badge info">ADDED</span> Added default result to search with Spotify
 
 1.2:
