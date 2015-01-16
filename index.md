@@ -28,7 +28,7 @@ Instantaneous search in your tracks, albums, artists, <em>Your Music</em> and pl
 
 <h2>Full control of your playlists !</h2>
 
-<p>Browse, launch, follow or even delete any of your playlists
+<p>Browse, launch, <a href="{{ site.url }}/articles/follow-or-remove-playlist">follow</a> or even <a href="{{ site.url }}/articles/follow-or-remove-playlist">remove</a> any of your playlists
 <br>
 <a href="{{ site.url }}/articles/add">Add</a> tracks, album or even playlists to any of your playlist, or <em>Your Music</em> right from the workflow.
 You can also <a href="{{ site.url }}/articles/remove">remove</a> tracks.</p>
