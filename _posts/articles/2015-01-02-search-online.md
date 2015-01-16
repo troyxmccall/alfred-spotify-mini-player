@@ -2,13 +2,13 @@
 layout: article
 title: "Search Online"
 date: 2015-01-02T11:39:03-04:00
-modified:
+modified: 2015-01-16
 categories: articles
 excerpt: "Search online for albums, artists, tracks and even playlists."
 image:
   teaser: teaser-search-online.jpg
   feature:
-  credit: 
+  credit:
   creditlink:
 noindex: false
 toc: false
@@ -44,7 +44,7 @@ onhomepage : true
 	<figcaption>Search by category, here playlists.</figcaption>
 </figure>
 
-* Then you can browse directly the playlist:-
+* Then you can browse directly the playlist, add the playlist to another playlist or you can even follow the playlist to add it in your library:-
 
 <figure>
 	<img src="{{ site.url }}/images/search-online6.jpg"></a>
