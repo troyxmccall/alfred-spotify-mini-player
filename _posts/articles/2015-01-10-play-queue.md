@@ -2,13 +2,13 @@
 layout: article
 title: "Play Queue"
 date: 2015-01-10T11:39:03-04:00
-modified:
+modified: 2015-01-16
 categories: articles
 excerpt: "Get the list of queued tracks directly in the workflow."
 image:
   teaser: teaser-play-queue.jpg
   feature:
-  credit: 
+  credit:
   creditlink:
 noindex: false
 toc: false
@@ -49,5 +49,5 @@ This is using same principles as the _Play Queue_ in the Spotify application:-
 
 * If you play a track without context (i.e, not from an album or playlist) then the track will be added at the beginning of existing _Play Queue_
 
-**Important:** You should use exclusively the workflow if you want to use _Play Queue_. If you use the Spotify application to launch a track or an album for example, the _Play Queue_ in the workflow will be empty
+**Important:** You should use exclusively the workflow if you want to use _Play Queue_. If you use the Spotify application to launch a track or an album for example, the _Play Queue_ in the workflow will be empty. You can use `next` media key from the keyboard to go to next track. But if you use `previous`, then the _Play Queue_ will be empty.
 {: .notice-danger}
