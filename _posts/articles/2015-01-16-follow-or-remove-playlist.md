@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Follow or remove playlist"
-date: 2015-01-11T11:39:03-04:00
+date: 2015-01-16
 modified:
 categories: articles
 excerpt: "Follow an online playlist or remove any of your playlists."
