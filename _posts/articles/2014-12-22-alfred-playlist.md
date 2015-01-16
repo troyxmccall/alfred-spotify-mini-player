@@ -8,7 +8,7 @@ excerpt: "Control Your Music, or a favorite playlist."
 image:
   teaser: teaser-alfred-playlist.jpg
   feature:
-  credit: 
+  credit:
   creditlink:
 noindex: false
 toc: true
@@ -24,7 +24,7 @@ The Alfred Playlist is simply one of your playlists that you can choose and for 
 
 
 <figure>
-	<a href="{{ site.url }}/images/alfred-playlist-change.gif"><img src="{{ site.url }}/images/alfred-playlist-change.gif"></a>
+	<a href="{{ site.url }}/images/alfred-playlist1.gif"><img src="{{ site.url }}/images/alfred-playlist1.gif"></a>
 	<figcaption>Select or change your Alfred Playlist is easy.</figcaption>
 </figure>
 
@@ -32,7 +32,7 @@ The Alfred Playlist is simply one of your playlists that you can choose and for 
 * To add a track to your Alfred Playlist select it with `fn` modifier, you'll get a menu where you can choose your _Alfred Playlist_ (or any other playlist):-
 
 <figure>
-	<a href="{{ site.url }}/images/alfred-playlist-fn-modifier.gif"><img src="{{ site.url }}/images/alfred-playlist-fn-modifier.gif"></a>
+	<a href="{{ site.url }}/images/alfred-playlist2.gif"><img src="{{ site.url }}/images/alfred-playlist2.gif"></a>
 	<figcaption>Use <i>fn</i> on a track and press <i>enter</i>, then choose your Alfred Playlist.</figcaption>
 </figure>
 
@@ -41,17 +41,17 @@ The Alfred Playlist is simply one of your playlists that you can choose and for 
 * To add currently playing track to your Alfred Playlist, you can use `add_current_track` command:
 
 <figure>
-	<a href="{{ site.url }}/images/alfred-playlist-add-current-track.gif"><img src="{{ site.url }}/images/alfred-playlist-add-current-track.gif"></a>
+	<a href="{{ site.url }}/images/alfred-playlist3.gif"><img src="{{ site.url }}/images/alfred-playlist3.gif"></a>
 	<figcaption>Use <i>add_current_track</i> command to add current playing track to your Alfred Playlist.</figcaption>
 </figure>
 
 
-* You can also clear all tracks from your Alfred Playlist, be careful when doing it. 
+* You can also clear all tracks from your Alfred Playlist, be careful when doing it.
 
 A confirmation will be asked:-
 
 <figure>
-	<img src="{{ site.url }}/images/alfred-playlist-clear.png"></a>
+	<img src="{{ site.url }}/images/alfred-playlist4.jpg"></a>
 	<figcaption>Clear your Alfred Playlist.</figcaption>
 </figure>
 
@@ -60,7 +60,7 @@ A confirmation will be asked:-
 If you want to control _Your Music_ instead of _Alfred Playlist_, you can change it in the settings:-
 
 <figure>
-	<img src="{{ site.url }}/images/alfred-playlist-control-setting.png"></a>
+	<img src="{{ site.url }}/images/alfred-playlist5.jpg"></a>
 	<figcaption>Choose to control <i>Your Music</i> or <i>Alfred Playlist</i>.</figcaption>
 </figure>
 

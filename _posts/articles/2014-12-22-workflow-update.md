@@ -8,7 +8,7 @@ excerpt: "Automatic check for workflow update."
 image:
   teaser: teaser-workflow-update.jpg
   feature:
-  credit: 
+  credit:
   creditlink:
 noindex: false
 toc: false
@@ -28,7 +28,7 @@ A notification would be sent to warn you that the new version is available.
 In *Settings* section, you can check for workflow update:-
 
 <figure>
-	<img src="{{ site.url }}/images/check_workflow_update.gif"></a>
+	<img src="{{ site.url }}/images/workflow-update1.gif"></a>
 	<figcaption>Check for a workflow update.</figcaption>
 </figure>
 

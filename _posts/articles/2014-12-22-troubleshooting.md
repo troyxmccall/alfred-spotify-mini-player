@@ -21,7 +21,7 @@ If you experience an issue with the workflow, follow these steps:-
 * Use the `spot_mini_debug` keyword input (note that if an exception occurs, it is automatically called). This will generate a `spot_mini_debug.tgz` file in your _Downloads_ directory.
 
 <figure>
-	<img src="{{ site.url }}/images/spot_mini_debug.png"></a>
+	<img src="{{ site.url }}/images/troubleshooting1.jpg"></a>
 	<figcaption>An exception occurred.</figcaption>
 </figure>
 
@@ -31,7 +31,7 @@ If you experience an issue with the workflow, follow these steps:-
 **Note:** With the `spot_mini_debug.tgz`, I'll have access to your Spotify library (but not your Spotify password, don't worry :smile:). This is only for the time of investigation. Once investigation is over, you can regenerate a _Client Secret_, as explained in the [Spotify Application page](https://developer.spotify.com/my-applications):-
 
 <figure>
-	<img src="{{ site.url }}/images/application_regenerate_key.png"></a>
+	<img src="{{ site.url }}/images/troubleshooting2.jpg"></a>
 	<figcaption>Regenerate Client Secret once investigation is over.</figcaption>
 </figure>
 
@@ -39,7 +39,7 @@ If you experience an issue with the workflow, follow these steps:-
 * Open an issue on the [Github page](https://github.com/vdesabou/alfred-spotify-mini-player/issues/new). You can also use command `spot_mini_issue` to open the issue:-
 
 <figure>
-	<img src="{{ site.url }}/images/spot_mini_issue.png"></a>
+	<img src="{{ site.url }}/images/troubleshooting3.jpg"></a>
 	<figcaption>Open an issue on Github page.</figcaption>
 </figure>
 

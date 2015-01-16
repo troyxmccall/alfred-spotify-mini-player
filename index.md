@@ -17,7 +17,7 @@ noindex: false
 Instantaneous search in your tracks, albums, artists, <em>Your Music</em> and playlists.</p>
 
   </leftside>
-  <rightside><!--<a href="{{ site.url }}/images/index1.gif">--><img src="{{ site.url }}/images/index1.jpg"></a></rightside>
+  <rightside><a href="{{ site.url }}/images/index1.gif"><img src="{{ site.url }}/images/index1.gif"></a></rightside>
 </sectionleft>
 
 <hr>
