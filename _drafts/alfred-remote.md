@@ -2,9 +2,9 @@
 layout: article
 title: "Alfred Remote"
 date: 2015-01-06
-modified:
+modified: 2015-01-18
 categories: articles
-excerpt: "Alfred Remote Support."
+excerpt: "Full Alfred Remote Support."
 image:
   teaser: teaser-alfred-remote.jpg
   feature:
@@ -16,26 +16,27 @@ comments: true
 onhomepage : true
 ---
 
-The Spotify Mini Player has full support of _Alfred Remote_, for every command.
+The Spotify Mini Player has full support of _Alfred Remote_. 
+There are 3 pages shipped with the workflow:-
 
-* This is the complete list of _remote triggers_ as of now:-
+* Playing commands:-
 
 <figure>
 	<img src="{{ site.url }}/images/alfred-remote1.jpg"></a>
-	<figcaption>List of available remote triggers for the workflow.</figcaption>
+	<figcaption>Remote triggers to control Spotify.</figcaption>
 </figure>
 
-* Example of remote page (1/2):-
+* Show commands:-
 
 <figure>
 	<img src="{{ site.url }}/images/alfred-remote2.jpg"></a>
-	<figcaption>Example of remote page (1/2).</figcaption>
+	<figcaption>Remote triggers to display workflow and navigate it.</figcaption>
 </figure>
 
-* Example of remote page (2/2):-
+* Other commands:-
 
 <figure>
 	<img src="{{ site.url }}/images/alfred-remote3.jpg"></a>
-	<figcaption>Example of remote page (2/2).</figcaption>
+	<figcaption>All other remote triggers available with the workflow.</figcaption>
 </figure>
 
