@@ -46,5 +46,6 @@ This is using same principles as the _Play Queue_ in the Spotify application:-
 
 * If you play a track without context (i.e, not from an album or playlist) then the track will be added at the beginning of existing _Play Queue_
 
-**Important:** You should use exclusively the workflow if you want to use _Play Queue_. If you use the Spotify application to launch a track or an album for example, the _Play Queue_ in the workflow will be empty. You can use `next` media key from the keyboard to go to next track. But if you use `previous`, then the _Play Queue_ will be empty.
+**Important:** You should use exclusively the workflow if you want to use _Play Queue_. If you use the Spotify application to launch a track or an album for example, the _Play Queue_ in the workflow will be empty.
+If you use shuffling, the order presented in the _Play Queue_ will not be relevant.
 {: .notice-danger}
