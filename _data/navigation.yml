@@ -10,7 +10,14 @@
   excerpt: "How to setup the workflow"
   image: teaser-setup.jpg
 
+- title: Support
+  url: /articles/support
+  excerpt: "Steps to follow when you get an issue."
+  image: teaser-support.jpg
+
 - title: Blog
   url: /blog/
   excerpt: "The blog with all news."
   image: teaser-blog.jpg
+
+
