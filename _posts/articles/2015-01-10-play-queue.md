@@ -1,8 +1,8 @@
 ---
 layout: article
 title: "Play Queue"
-date: 2015-01-10T11:39:03-04:00
-modified: 2015-01-16
+date: 2015-01-10
+modified: 2015-01-18
 categories: articles
 excerpt: "Get the list of queued tracks directly in the workflow."
 image:
@@ -31,9 +31,6 @@ onhomepage : true
 </figure>
 
 The _Play Queue_ is truncated after displaying 150 results.
-
-**Info:** [Now Playing]( {{ site.url }}/articles/now-playing) shall be enabled to be able to use _Play Queue_
-{: .notice-info}
 
 This is using same principles as the _Play Queue_ in the Spotify application:-
 
