@@ -1,8 +1,8 @@
 ---
 layout: article
 title: "Modifier keys"
-date: 2014-12-23T11:39:03-04:00
-modified: 2015-01-05T11:39:03-04:00
+date: 2014-12-23
+modified: 2015-01-19
 categories: articles
 excerpt: "Support of modifier keys, shortcuts for common actions."
 image:
@@ -29,6 +29,8 @@ Alfred modifiers are specific actions you can trigger when pressing special keys
 * Select a track with  `⇧` (shift key) to add the album to either _Your Music_, or any of your playlists (you can even create a new one)
 
 * Select a playlist with  `⇧` (shift key) to add the playlist to either _Your Music_, or any of your playlists (you can even create a new one)
+
+* Select a playlist with  `⌘` (cmd key) to change the privacy (public or private)
 
 
 Example:-
