@@ -2,7 +2,7 @@
 layout: article
 permalink: /release-notes/
 title: "Release Notes"
-modified: 2015-01-06
+modified: 2015-01-27
 excerpt: "Release Notes."
 image:
   feature:
@@ -13,7 +13,8 @@ toc: false
 noindex: false
 ---
 
-6.0 (not released yet):
+<a name="v6.0"></a>
+6.0:
 
 * <span class="badge info">ADDED</span> Full _Alfred Remote_ support
 
