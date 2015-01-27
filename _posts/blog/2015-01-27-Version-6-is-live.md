@@ -3,7 +3,7 @@ layout: article
 title: "Version 6.0 is now live"
 date: 2015-01-27
 modified: 2015-01-27
-categories: articles
+categories: blog
 excerpt: "Version 6.0 is live!"
 image:
   teaser:
