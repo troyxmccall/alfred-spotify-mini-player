@@ -2,7 +2,7 @@
 layout: article
 title: "Alfred Remote"
 date: 2015-01-06
-modified: 2015-01-18
+modified: 2015-01-27
 categories: articles
 excerpt: "Full Alfred Remote Support."
 image:
