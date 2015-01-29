@@ -2,6 +2,8 @@
 layout: article
 permalink: /setup/
 title: "Setup"
+date: 2015-01-01
+modified: 2015-01-29
 toc: true
 share: false
 noindex: false
@@ -27,7 +29,12 @@ Setting up the workflow is easy, you just need to follow these steps:-
 
 ## Create the library
 
-* Invoke the workflow (with keyword `spot_mini`, or with an [hotkey]({{ site.url }}/articles/hotkeys) ) and follow the steps as below by copy/pasting the Client ID and Client Secret into Alfred window when asked:
+* Invoke the workflow (with keyword `spot_mini`, or with an [hotkey]({{ site.url }}/articles/hotkeys) ) 
+
+**Warning:** Do not invoke workflow with `refresh_library`, make sure to use `spot_mini`
+{: .notice-danger}
+
+* Follow the steps as below by copy/pasting the Client ID and Client Secret into Alfred window when asked:
 
 <figure>
 	<a href="{{ site.url }}/images/setup.gif"><img src="{{ site.url }}/images/setup.gif"></a>
