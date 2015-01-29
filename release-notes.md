@@ -16,7 +16,7 @@ noindex: false
 <a name="v6.0.1"></a>
 6.0.1:
 
-* <span class="badge danger">FIXED</span> Fix for issue #42, #45, #46, #48 (If you got issue with library creation with version 6.0, follow steps here http://alfred-spotify-mini-player.com/articles/support/ and choose 'Browse to App Support Folder', then in Finder, delete 'library.db' and 'fetch_artworks.db' files before re-creating the library)
+* <span class="badge danger">FIXED</span> Fix for issue #42, #45, #46, #48 (If you got issue with library creation with version 6.0, follow steps [here](http://alfred-spotify-mini-player.com/articles/support/) and choose 'Browse to App Support Folder', then in Finder, delete `library.db` and `fetch_artworks.db` files before re-creating the library)
 
  
 <a name="v6.0"></a>
