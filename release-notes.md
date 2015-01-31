@@ -13,8 +13,8 @@ toc: false
 noindex: false
 ---
 
-<a name="v6.0.2"></a>
-6.0.2:
+<a name="v6.0.21"></a>
+6.0.21:
 
 * <span class="badge danger">FIXED</span> Fix for issue [#49](https://github.com/vdesabou/alfred-spotify-mini-player/issues/49) and [#50](https://github.com/vdesabou/alfred-spotify-mini-player/issues/50)
 
