@@ -31,9 +31,6 @@ Setting up the workflow is easy, you just need to follow these steps:-
 
 * Invoke the workflow (with keyword `spot_mini`, or with an [hotkey]({{ site.url }}/articles/hotkeys) ) 
 
-**Warning:** Do not invoke workflow with `refresh_library`, make sure to use `spot_mini`
-{: .notice-danger}
-
 * Follow the steps as below by copy/pasting the Client ID and Client Secret into Alfred window when asked:
 
 <figure>
