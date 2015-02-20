@@ -16,7 +16,7 @@ noindex: false
 <a name="v6.0.4"></a>
 6.0.4:
 
-* <span class="badge info">ADDED</span> Add `Play Random Album [#60](https://github.com/vdesabou/alfred-spotify-mini-player/issues/60)
+* <span class="badge info">ADDED</span> Add `Play Random Album` [#60](https://github.com/vdesabou/alfred-spotify-mini-player/issues/60)
 
 * <span class="badge success">IMPROVED</span> Better handling of playable tracks. Not playable tracks are displayed with :no_entry_sign: and are not actionable [#57](https://github.com/vdesabou/alfred-spotify-mini-player/issues/57)
 
