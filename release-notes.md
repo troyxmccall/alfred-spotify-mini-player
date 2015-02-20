@@ -2,7 +2,7 @@
 layout: article
 permalink: /release-notes/
 title: "Release Notes"
-modified: 2015-01-31
+modified: 2015-02-20
 excerpt: "Release Notes."
 image:
   feature:
@@ -12,6 +12,15 @@ share: false
 toc: false
 noindex: false
 ---
+
+<a name="v6.0.4"></a>
+6.0.4:
+
+* <span class="badge info">ADDED</span> Add `Play Random Album [#60](https://github.com/vdesabou/alfred-spotify-mini-player/issues/60)
+
+* <span class="badge success">IMPROVED</span> Better handling of playable tracks. Not playable tracks are displayed with :no_entry_sign: and are not actionable [#57](https://github.com/vdesabou/alfred-spotify-mini-player/issues/57)
+
+* <span class="badge success">IMPROVED</span> Added check for [minimal PHP](http://alfred-spotify-mini-player.com/known-issues/#php_requirement) version which is 5.4 (shipped in Mavericks) [#59](https://github.com/vdesabou/alfred-spotify-mini-player/issues/59)
 
 <a name="v6.0.3"></a>
 6.0.3:
