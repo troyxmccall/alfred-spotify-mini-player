@@ -7,11 +7,10 @@
  * @param mixed $w
  * @param mixed $query
  * @param mixed $settings
- * @param mixed $db
  * @param mixed $update_in_progress
  * @return void
  */
-function oAuthChecks($w, $query, $settings, $db, $update_in_progress)
+function oAuthChecks($w, $query, $settings, $update_in_progress)
 {
     $words = explode('▹', $query);
     $kind  = $words[0];
@@ -2471,7 +2470,7 @@ function firstDelimiterCurrentTrack($w, $query, $settings, $db, $update_in_progr
     $is_public_playlists        = $settings->is_public_playlists;
 
     // get info on current song
-    $command_output = exec("./src/track_info.ksh 2>&1");
+    $command_output = exec(__DIR__ . '/track_info.ksh 2>&1');
 
     if (substr_count($command_output, '▹') > 0) {
         $results = explode('▹', $command_output);

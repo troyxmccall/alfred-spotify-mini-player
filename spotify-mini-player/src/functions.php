@@ -1,7 +1,7 @@
 <?php
 
-require_once './src/workflows.php';
-require './vendor/autoload.php';
+//require( __DIR__ . '/workflows.php' );
+require_once( __DIR__ . '/../vendor/autoload.php' );
 
 /**
  * getSpotifyWebAPI function.
@@ -314,7 +314,7 @@ function updateCurrentTrackIndexFromPlayQueue($w) {
     if ($playqueue == false) {
         displayNotificationWithArtwork("No play queue yet", './images/warning.png', 'Error!');
     }
-    $command_output = exec("./src/track_info.ksh 2>&1");
+    $command_output = exec(__DIR__ . '/track_info.ksh 2>&1');
     if (substr_count($command_output, '▹') > 0) {
         $results = explode('▹', $command_output);
 	    $found = false;
@@ -521,7 +521,7 @@ function playAlfredPlaylist($w)
 function lookupCurrentArtist($w)
 {
     // get info on current song
-    $command_output = exec("./src/track_info.ksh 2>&1");
+    $command_output = exec(__DIR__ . '/track_info.ksh 2>&1');
 
     if (substr_count($command_output, '▹') > 0) {
         $results = explode('▹', $command_output);
@@ -558,7 +558,7 @@ function displayCurrentArtistBiography($w)
     }
 
     // get info on current song
-    $command_output = exec("./src/track_info.ksh 2>&1");
+    $command_output = exec(__DIR__ . '/track_info.ksh 2>&1');
 
     if (substr_count($command_output, '▹') > 0) {
         $results = explode('▹', $command_output);
@@ -589,7 +589,7 @@ function displayCurrentArtistBiography($w)
 function playCurrentArtist($w)
 {
     // get info on current song
-    $command_output = exec("./src/track_info.ksh 2>&1");
+    $command_output = exec(__DIR__ . '/track_info.ksh 2>&1');
 
     if (substr_count($command_output, '▹') > 0) {
         $results = explode('▹', $command_output);
@@ -621,7 +621,7 @@ function playCurrentArtist($w)
 function playCurrentAlbum($w)
 {
     // get info on current song
-    $command_output = exec("./src/track_info.ksh 2>&1");
+    $command_output = exec(__DIR__ . '/track_info.ksh 2>&1');
 
     if (substr_count($command_output, '▹') > 0) {
         $results   = explode('▹', $command_output);
@@ -649,7 +649,7 @@ function playCurrentAlbum($w)
 function addCurrentTrackTo($w)
 {
     // get info on current song
-    $command_output = exec("./src/track_info.ksh 2>&1");
+    $command_output = exec(__DIR__ . '/track_info.ksh 2>&1');
 
     if (substr_count($command_output, '▹') > 0) {
         $results = explode('▹', $command_output);
@@ -699,7 +699,7 @@ function addCurrentTrackTo($w)
 function removeCurrentTrackFrom($w)
 {
     // get info on current song
-    $command_output = exec("./src/track_info.ksh 2>&1");
+    $command_output = exec(__DIR__ . '/track_info.ksh 2>&1');
 
     if (substr_count($command_output, '▹') > 0) {
         $results = explode('▹', $command_output);
@@ -744,7 +744,7 @@ function addCurrentTrackToAlfredPlaylistOrYourMusic($w)
 function addCurrentTrackToAlfredPlaylist($w)
 {
     // get info on current song
-    $command_output = exec("./src/track_info.ksh 2>&1");
+    $command_output = exec(__DIR__ . '/track_info.ksh 2>&1');
 
     if (substr_count($command_output, '▹') > 0) {
         $results = explode('▹', $command_output);
@@ -810,7 +810,7 @@ function addCurrentTrackToAlfredPlaylist($w)
 function addCurrentTrackToYourMusic($w)
 {
     // get info on current song
-    $command_output = exec("./src/track_info.ksh 2>&1");
+    $command_output = exec(__DIR__ . '/track_info.ksh 2>&1');
 
     if (substr_count($command_output, '▹') > 0) {
         $results = explode('▹', $command_output);
@@ -1372,7 +1372,7 @@ function createTheUserPlaylist($w, $playlist_name)
  */
 function createRadioArtistPlaylistForCurrentArtist($w)
 {
-    $command_output = exec("./src/track_info.ksh 2>&1");
+    $command_output = exec(__DIR__ . '/track_info.ksh 2>&1');
 
     if (substr_count($command_output, '▹') > 0) {
         $results = explode('▹', $command_output);
@@ -1465,7 +1465,7 @@ function createRadioArtistPlaylist($w, $artist_name)
  */
 function createRadioSongPlaylistForCurrentTrack($w)
 {
-    $command_output = exec("./src/track_info.ksh 2>&1");
+    $command_output = exec(__DIR__ . '/track_info.ksh 2>&1');
 
     if (substr_count($command_output, '▹') > 0) {
         $results = explode('▹', $command_output);
@@ -2252,7 +2252,7 @@ function displayNotificationWithArtwork($subtitle, $artwork, $title = 'Spotify M
  */
 function displayNotificationForCurrentTrack($w)
 {
-    $command_output = exec("./src/track_info.ksh 2>&1");
+    $command_output = exec(__DIR__ . '/track_info.ksh 2>&1');
 
     if (substr_count($command_output, '▹') > 0) {
         $results = explode('▹', $command_output);
@@ -2277,7 +2277,7 @@ function displayLyricsForCurrentTrack($w)
         return;
     }
 
-    $command_output = exec("./src/track_info.ksh 2>&1");
+    $command_output = exec(__DIR__ . '/track_info.ksh 2>&1');
 
     if (substr_count($command_output, '▹') > 0) {
         $results = explode('▹', $command_output);
@@ -5054,7 +5054,7 @@ function getCountryName($cc)
 {
     // from http://stackoverflow.com/questions/14599400/how-to-get-iso-3166-1-compatible-country-code
 
-    $country_names = json_decode(file_get_contents("./src/country_names.json"), true);
+    $country_names = json_decode(file_get_contents(__DIR__ . '/country_names.json'), true);
 
     return $country_names[$cc];
 }

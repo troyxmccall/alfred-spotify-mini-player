@@ -1,14 +1,18 @@
 <?php
 
-// $begin_time = computeTime();
-require './src/functions.php';
-require './src/menu.php';
-require_once './src/workflows.php';
+
+require( __DIR__ . '/functions.php' );
+require( __DIR__ . '/menu.php' );
+require( __DIR__ . '/workflows.php' );
+require_once( __DIR__ . '/server.php' );
+$begin_time = computeTime();
 $w = new Workflows('com.vdesabou.spotify.mini.player');
 
 $query = escapeQuery($argv[1]);
 // thanks to http://www.alfredforum.com/topic/1788-prevent-flash-of-no-result
 $query = iconv('UTF-8-MAC', 'UTF-8', $query);
+
+error_reporting(0);
 
 //
 // check for library update in progress
@@ -110,7 +114,7 @@ $userid                    = $settings->userid;
 $echonest_api_key          = $settings->echonest_api_key;
 
 // Check that user is logged
-oAuthChecks($w, $query, $settings, $db, $update_in_progress);
+oAuthChecks($w, $query, $settings, $update_in_progress);
 
 //
 // Check for library DB to use
@@ -364,9 +368,9 @@ if (mb_strlen($query) < 3) {
         }
     }
 }
-/*
+
 $end_time = computeTime();
 $total_temp = ($end_time-$begin_time);
 $w->result(null, 'debug', "Processed in " . $total_temp*1000 . ' ms', '', './images/info.png', 'no', null, '');
-*/
+
 echo $w->toxml();
