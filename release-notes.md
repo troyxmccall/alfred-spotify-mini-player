@@ -2,7 +2,7 @@
 layout: article
 permalink: /release-notes/
 title: "Release Notes"
-modified: 2015-02-20
+modified: 2015-02-23
 excerpt: "Release Notes."
 image:
   feature:
@@ -12,6 +12,11 @@ share: false
 toc: false
 noindex: false
 ---
+
+<a name="v6.1"></a>
+6.1 (not released yet):
+
+* <span class="badge info">ADDED</span> Added [Browse Spotify categories](http://alfred-spotify-mini-player.com/articles/browse-categories/)
 
 <a name="v6.0.4"></a>
 6.0.4:
