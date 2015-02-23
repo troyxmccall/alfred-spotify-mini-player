@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <style type="text/css">
+    {% capture include_to_scssify %}
+      {% include main.scss %}
+    {% endcapture %}
+    {{ include_to_scssify | scssify }}
+  </style>
     <meta charset="utf-8">
     <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
     {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
@@ -42,7 +48,7 @@
 	 	<meta name="robots" content="noindex" />
 	{% endif %}
 
-    <link rel="stylesheet" href="{{ site.url }}/css/main.css">
+    <!-- <link rel="stylesheet" href="{{ site.url }}/css/main.css"> -->
     <!-- HTML5 Shiv and Media Query Support for IE -->
     <!--[if lt IE 9]>
       <script src="{{ site.url }}/js/vendor/html5shiv.min.js"></script>
