@@ -21,6 +21,10 @@ _ALPHRED_KILL_SCRIPT="${_ALPHRED_ME}/kill.sh"
 # The port for the scripts to run on
 _ALPHRED_SERVER_PORT=8972
 
+if [[ -f "${_ALPHRED_ME}/extend_query_server.sh" ]]; then
+	. extend_query_server.sh
+fi
+
 # If we cannot find the kill script, then exit with error code 1.
 if [[ ! -f "${_ALPHRED_KILL_SCRIPT}" ]]; then
 	echo "ERROR: Cannot find kill script; please reinstall server scripts."
@@ -66,8 +70,19 @@ function Alphred::prime_server() {
         echo $! > "${_ALPHRED_PHP_PID_FILE}"
         # launch kill script
         nohup /bin/bash "${_ALPHRED_ME}/kill.sh" &> /dev/null &
-        # we need to put in a very small delay to let the server boot up otherwise the first time will fail
-        sleep 0.3
+
+        # We're going to wait until the server has spun up. By trying to execute a cURL call.
+        # we'll get a 7 if it isn't there, otherwise, so we'll increment a counter and then try
+        # again
+        i=0
+        while [ $i -lt 100 ]; do
+        	curl -sS http://localhost:"${_ALPHRED_SERVER_PORT}" &> /dev/null
+        	if [[ '7' != $(echo $?) ]]; then
+        		echo "Server started." 1>&2
+        		break;
+        	fi
+        	i=$(( i + 1 ))
+        done
     fi
     # Update the Last Triggered file
     echo $(date +%s) > "${_ALPHRED_KEEP_ALIVE}" &
@@ -118,16 +133,16 @@ elif [[ '0' == $(type -t Alphred::extend_query_server; echo $?) ]]; then
     # then define the function "Alphred::extend_query_server"
     #
     # Example:
-    # function Alphred::extend_query_server() {
-    #   print "<?xml version='1.0' encoding='UTF-8'?>\n" \
-    #         "<items>\n" \
-    #         " <item valid='no'>\n" \
-    #         "  <title>Error: ${_ALPHRED_MIN_QUERY} characters minimum are needed to perform query.</title>\n" \
-    #         "  <subtitle>${alfred_workflow_name}</subtitle>\n" \
-    #         "  <icon>/System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/Unsupported.icns</icon>\n" \
-    #         " </item>\n" \
-    #         "</items>\n"
-    # }
+		# function Alphred::extend_query_server() {
+		#   echo "<?xml version='1.0' encoding='UTF-8'?>"
+		# 	echo "<items>"
+		# 	echo " <item valid='no'>"
+		# 	echo "  <title>Error: ${_ALPHRED_MIN_QUERY} characters minimum are needed to perform query.</title>"
+		# 	echo "  <subtitle>${alfred_workflow_name}</subtitle>"
+		# 	echo "  <icon>/System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/Unsupported.icns</icon>"
+		# 	echo " </item>"
+		# 	echo "</items>"
+		# }
     #
     Alphred::extend_query_server "${_ALPHRED_QUERY}"
 fi
