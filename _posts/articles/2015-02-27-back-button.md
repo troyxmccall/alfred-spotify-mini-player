@@ -13,7 +13,7 @@ image:
 noindex: false
 toc: false
 comments: true
-onhomepage : false
+onhomepage : true
 ---
 
 * You can invoke at any time the *Go Back* button by typing `bb`:-

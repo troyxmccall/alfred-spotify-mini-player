@@ -13,7 +13,7 @@ image:
 noindex: false
 toc: false
 comments: true
-onhomepage : false
+onhomepage : true
 ---
 
 * You can browse the categories from Spotify in the *main* menu:-

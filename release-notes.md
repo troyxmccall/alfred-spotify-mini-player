@@ -2,7 +2,7 @@
 layout: article
 permalink: /release-notes/
 title: "Release Notes"
-modified: 2015-02-23
+modified: 2015-02-27
 excerpt: "Release Notes."
 image:
   feature:
@@ -14,9 +14,13 @@ noindex: false
 ---
 
 <a name="v6.1"></a>
-6.1 (not released yet):
+6.1:
 
 * <span class="badge info">ADDED</span> Added [Browse Spotify categories](http://alfred-spotify-mini-player.com/articles/browse-categories/)
+
+* <span class="badge info">ADDED</span> Added [Quick Mode](http://alfred-spotify-mini-player.com/articles/quick-mode/)
+
+* <span class="badge success">IMPROVED</span> The [Back Button](http://alfred-spotify-mini-player.com/articles/back-button/) does not appear by default now. You can now make it appear by typing `bb` at any time.
 
 <a name="v6.0.4"></a>
 6.0.4:

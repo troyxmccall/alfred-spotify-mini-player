@@ -13,7 +13,7 @@ image:
 noindex: false
 toc: false
 comments: true
-onhomepage : false
+onhomepage : true
 ---
 
 By default when you do a search in main menu, you'll be presented with *Browse* options for artists, albums and playlists. You'll have to go in sub-menu and then launch it. If you want to avoid this extra-step, you can enable *Quick Mode* in *Settings* menu:-
