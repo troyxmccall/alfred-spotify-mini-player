@@ -1,10 +1,5 @@
-/* ==========================================================================
-   Buttons
-   ========================================================================== */
-
-/*
-   Default button .btn
-   ========================================================================== */
+// BUTTONS
+// --------------------------------------------------
 
 // call to action
 .btn {
@@ -27,11 +22,6 @@
 		@include transform(translateY(1px));
 	}
 }
-
-/*
-   Inverse button .btn-inverse
-   ========================================================================== */
-
 .btn-inverse {
 	@extend .btn;
 	background-color: $white;
@@ -45,11 +35,6 @@
 		background-color: $text-color;
 	}
 }
-
-/*
-   Info button .btn-info
-   ========================================================================== */
-
 .btn-info {
 	@extend .btn;
 	background-color: $info-color;
@@ -61,11 +46,6 @@
 		background-color: lighten($info-color, 10);
 	}
 }
-
-/*
-   Warning button .btn-warning
-   ========================================================================== */
-
 .btn-warning {
 	@extend .btn;
 	background-color: $warning-color;
@@ -77,11 +57,6 @@
 		background-color: lighten($warning-color ,10);
 	}
 }
-
-/*
-   Success button .btn-success
-   ========================================================================== */
-
 .btn-success {
 	@extend .btn;
 	background-color: $success-color;
@@ -93,11 +68,6 @@
 		background-color:lighten($success-color, 10);
 	}
 }
-
-/*
-   Danger button .btn-danger
-   ========================================================================== */
-
 .btn-danger {
 	@extend .btn;
 	background-color: $danger-color;
@@ -109,11 +79,6 @@
 		background-color: lighten($danger-color, 10);
 	}
 }
-
-/*
-   Social media buttons
-   ========================================================================== */
-
 .btn-social {
 	$social:
     (facebook, $facebook-color),
