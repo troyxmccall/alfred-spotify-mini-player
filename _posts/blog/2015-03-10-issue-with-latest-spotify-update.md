@@ -25,8 +25,15 @@ Spotify is releasing a buggy version to people and this is unacceptable!!
 If you're one of the users who have been upgraded to 1.0.1.x version, the workflow will no more work. See this [issue](https://github.com/vdesabou/alfred-spotify-mini-player/issues/66) for more details. 
 
 The only way is to revert back to previous Spotify version by following steps [here](http://supraliminal.net/blog/2013/4/21/how-to-revert-back-to-the-older-better-spotify-client), see section _MAC OS X_.
+
 Note that you can download `0.9.15.27` and not `0.8.5.1356` as described in the article.
 
+After applying the workaround, you should see a message _There was a problem updating Spotify (BAD FILE SIG)_ :-
+
+<figure>
+    <img src="{{ site.url }}/images/blog/spotify_update_problem.jpg"></a>
+    <figcaption>Message: There was a problem updating Spotify</figcaption>
+</figure>
 
 
 
