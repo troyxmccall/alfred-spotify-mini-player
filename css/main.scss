@@ -11,6 +11,8 @@ sitemap: false
  *
 */
 
+// Partials
+@import "gist";
 @import "variables";
 
 /*
@@ -53,3 +55,4 @@ sitemap: false
    ========================================================================== */
 
 @import "layout";
+@import "pygments";
