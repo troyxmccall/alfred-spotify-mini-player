@@ -2,19 +2,20 @@
 layout: article
 permalink: /known-issues/
 title: "Known Issues"
-modified: 2015-03-10
+modified: 2015-03-13
 excerpt: "List of Known Issues."
 image:
   feature:
   teaser:
   thumb:
 share: false
-toc: false
+toc: true
 noindex: false
 ---
 
-
 This is the list of current known issues:
+
+## Spotify WEB API limitations
 
 * Collaborative playlists are not currently retrievable. This is a [limitation](https://developer.spotify.com/web-api/get-list-users-playlists/) of WEB API.
 
@@ -25,7 +26,11 @@ As a workaround, you can create a new playlist (called 'Starred' for example) an
 
 <a name="php_requirement"></a>
 
-* PHP 5.4.0 or later is required for authentication. This is because I am using the PHP CLI [built-in web server](http://php.net/manual/en/features.commandline.webserver.php) for Oauth process. If you use an older version, there is a [workround](https://github.com/vdesabou/alfred-spotify-mini-player/issues/44#issuecomment-72003149). Ask for more details if required.
+## PHP Requirement
+
+* PHP 5.4.0 or later (shipped by default since Mavericks) is required for authentication. This is because I am using the PHP CLI [built-in web server](http://php.net/manual/en/features.commandline.webserver.php) for Oauth process. If you use an older version, there is a [workround](https://github.com/vdesabou/alfred-spotify-mini-player/issues/44#issuecomment-72003149). Ask for more details if required.
+
+## Spotify Desktop bug
 
 * Spotify Desktop version above 1.x does not work with the workflow as AppleScript support is broken. See this [post](http://alfred-spotify-mini-player.com/blog/issue-with-latest-spotify-update/) for more details and workaround (i.e revert to 0.9.x version).
  
