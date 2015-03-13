@@ -15,6 +15,11 @@
   excerpt: "Steps to follow when you get an issue."
   image: teaser-support.jpg
 
+- title: Known Issues
+  url: /known-issues/
+  excerpt: "List of known issues."
+  image: teaser-known-issues.jpg
+
 - title: Blog
   url: /blog/
   excerpt: "The blog with all news."
