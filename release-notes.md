@@ -18,7 +18,7 @@ noindex: false
 
 * <span class="badge danger">FIXED</span> Fix for issue [#65](https://github.com/vdesabou/alfred-spotify-mini-player/issues/65) Ignore playlists with empty names
 
-* <span class="badge success">IMPROVED</span> Detect AppleScript execution errors [#67](https://github.com/vdesabou/alfred-spotify-mini-player/issues/67). This will help users to detect if they have the latest [buggy Spotify update](http://alfred-spotify-mini-player.com/blog/issue-with-latest-spotify-update/).
+* <span class="badge success">IMPROVED</span> Detect AppleScript execution errors [#67](https://github.com/vdesabou/alfred-spotify-mini-player/issues/67). This will help users to detect if they have the latest [bugged Spotify update](http://alfred-spotify-mini-player.com/blog/issue-with-latest-spotify-update/).
 
 <a name="v6.1"></a>
 6.1:
