@@ -37,7 +37,7 @@ After applying the workaround, you should see a message _There was a problem upd
     <figcaption>Message: There was a problem updating Spotify</figcaption>
 </figure>
 
-Update: a Spotify developer [informed](http://stackoverflow.com/questions/29039514/applescript-to-tell-spotify-to-play-isnt-working-after-osx-update-to-yosemite/29047174#29047174) that it is fixed in next Spotify version (no availability date yet).
+Update (20th March): a Spotify developer [informed](http://stackoverflow.com/questions/29039514/applescript-to-tell-spotify-to-play-isnt-working-after-osx-update-to-yosemite/29047174#29047174) that it is fixed in next Spotify version (no availability date yet).
 
 
 
