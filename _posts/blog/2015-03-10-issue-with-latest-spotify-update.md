@@ -22,7 +22,13 @@ This version is a big downgrade, many users are complaining on their [forums](ht
 
 Spotify is [explaining](https://community.spotify.com/t5/Help-Desktop-Linux-Mac-and/Desktop-Update-Version-1-0-1/td-p/1050266) that this is a complete rewrite, but that does not justify the fact they're pushing this _alpha_ version to end users...!
 
-If you're one of the users who have been upgraded to 1.0.x version, the workflow will no more work. See this [issue](https://github.com/vdesabou/alfred-spotify-mini-player/issues/66) for more details. If you have latest version 6.1.1 of the workflow, you'll get a warning message indicating an AppleScript error. 
+If you're one of the users who have been upgraded to 1.0.x version, the workflow will no more work. See this [issue](https://github.com/vdesabou/alfred-spotify-mini-player/issues/66) for more details. 
+If you have latest version 6.1.1 of the workflow, you'll get a warning message indicating an AppleScript error :-
+
+<figure>
+    <img src="{{ site.url }}/images/blog/spotify_update_problem2.jpg"></a>
+    <figcaption>Error message you get with version 6.1.1</figcaption>
+</figure> 
 
 There is a [workaround](http://hyperdock.bahoom.com/spotify_fix) to have AppleScript working with version 1.0.x *BUT* the `play track` is still broken with the workaround, so the workflow will not be able to launch tracks or playlists, which is pretty useless.
 
