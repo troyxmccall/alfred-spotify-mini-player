@@ -2,7 +2,7 @@
 layout: article
 title: "Issue with latest Spotify update"
 date: 2015-03-20
-modified: 2015-03-20
+modified: 2015-03-25
 categories: blog
 excerpt: "Version 1.0.x breaks the workflow"
 image:
@@ -31,7 +31,7 @@ If you have latest version 6.1.1 of the workflow, you'll get a warning message i
     <figcaption>Error message you get with version 6.1.1</figcaption>
 </figure> 
 
-There is a [workaround](http://hyperdock.bahoom.com/spotify_fix) to have AppleScript working with version 1.0.x *BUT* the `play track` is still broken with the workaround, so the workflow will not be able to launch tracks or playlists, which is pretty useless.
+There is a [workaround](http://dangercove.github.io/Spotify-AppleScript-Patch/) to have AppleScript working with version 1.x *BUT* the `play track` is still broken with the workaround, so the workflow will not be able to launch tracks or playlists, which is pretty useless.
 
 The only way is to revert back to previous Spotify version by following steps [here](http://supraliminal.net/blog/2013/4/21/how-to-revert-back-to-the-older-better-spotify-client), see section _MAC OS X_.
 
