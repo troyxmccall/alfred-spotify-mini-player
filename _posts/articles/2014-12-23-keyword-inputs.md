@@ -16,6 +16,8 @@ comments: true
 onhomepage : true
 ---
 
+{% include toc.html %}
+
 Spotify Mini Player has a full list of [keyword inputs](http://support.alfredapp.com/workflows:config:inputs-keyword) that you can invoke. 
 For each command, you can also define an [hotkey](http://support.alfredapp.com/workflows:config:triggers-hotkey).
 

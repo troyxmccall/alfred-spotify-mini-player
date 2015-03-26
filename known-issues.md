@@ -13,6 +13,8 @@ toc: true
 noindex: false
 ---
 
+{% include toc.html %}
+
 This is the list of current known issues:
 
 ## Spotify Desktop bug

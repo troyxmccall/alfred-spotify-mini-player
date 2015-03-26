@@ -16,6 +16,8 @@ comments: true
 onhomepage : true
 ---
 
+{% include toc.html %}
+
 ## Alfred Playlist
 
 The Alfred Playlist is simply one of your playlists that you can choose and for which you have shortcut to add tracks, albums and even playlists.

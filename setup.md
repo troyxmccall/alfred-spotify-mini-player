@@ -9,8 +9,9 @@ share: false
 noindex: false
 ---
 
-Setting up the workflow is easy, you just need to follow these steps:-
+{% include toc.html %}
 
+Setting up the workflow is easy, you just need to follow these steps:-
 
 ## Create a Spotify Application
 

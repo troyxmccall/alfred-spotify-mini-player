@@ -16,6 +16,8 @@ comments: true
 onhomepage : true
 ---
 
+{% include toc.html %}
+
 ## Refresh Library
 
 * Every time you update Your Music or add a track/album/playlist to a playlist, the workflow automatically updates the library and you'll get notifications:-
