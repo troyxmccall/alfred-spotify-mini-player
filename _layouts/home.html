@@ -21,22 +21,6 @@
     <meta http-equiv="cleartype" content="on">
     <meta name="google-site-verification" content="KiHqOZpui9cwLpmPFuP_5SUgzxM5f_Mi2LFbr6L2438" />
 
-    <style>
-    .sliding-menu-content {
-      top: 0;
-      right: 0;
-      text-align: center;
-      visibility: hidden;
-      height: 100%;
-      width: 100%;
-      -webkit-transform: translateX(100%);
-      -moz-transform: translateX(100%);
-      -ms-transform: translateX(100%);
-      -o-transform: translateX(100%);
-      transform: translateX(100%);
-    }
-    </style>
-
 	<!-- meta robots -->
 	{% if page.noindex %}
 	 	<meta name="robots" content="noindex" />
@@ -52,7 +36,8 @@
 
   </head>
 
-  <body>
+ <body id="js-body">
+    {% include browser-upgrade.html %}
     {% include header.html %}
     {% include navigation-sliding.html %}
 
@@ -67,7 +52,6 @@
     {% endif %}
 
     <div id="page-wrapper">
-      {% include browser-upgrade.html %}
 
       <div id="main" role="main">
         <div class="wrap">
