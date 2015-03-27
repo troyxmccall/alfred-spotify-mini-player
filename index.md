@@ -6,6 +6,9 @@ image:
 noindex: false
 ---
 
+**Important:** Spotify Desktop version 1.x **does not work** with the workflow as AppleScript support is broken. See this [post](http://alfred-spotify-mini-player.com/blog/issue-with-latest-spotify-update/) for more details and workaround (i.e revert to 0.9.x version).
+{: .notice-danger}
+
 <sectionleft>
   <leftside>
 
