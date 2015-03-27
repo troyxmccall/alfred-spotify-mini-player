@@ -9,7 +9,7 @@ noindex: false
 <sectionleft>
   <leftside>
 
-<i class="fa fa-bolt"></i> Lightning search !</h2>
+<h2><i class="fa fa-bolt"></i> Lightning search !</h2>
 
 <p>Search in <em>your</em> Spotify library from <a href="http://www.alfredapp.com">Alfred</a> App.
 
@@ -56,6 +56,6 @@ You can also <a href="{{ site.url }}/articles/remove">remove</a> tracks.</p>
 
 <a name="features"></a>
 
-<h2>All features</h2>
+<h2><i class="fa fa-check"></i> Features</h2>
 
 {% include home-features-list-bullets.html %}
