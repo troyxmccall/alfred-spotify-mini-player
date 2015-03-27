@@ -9,7 +9,7 @@ noindex: false
 <sectionleft>
   <leftside>
 
-<h2><i class="fa fa-search"></i> Lightning search !</h2>
+<i class="fa fa-bolt"></i> Lightning search !</h2>
 
 <p>Search in <em>your</em> Spotify library from <a href="http://www.alfredapp.com">Alfred</a> App.
 
