@@ -9,7 +9,7 @@ noindex: false
 <sectionleft>
   <leftside>
 
-<h2>Lightning search !</h2>
+<h2><i class="fa fa-search"></i> Lightning search !</h2>
 
 <p>Search in <em>your</em> Spotify library from <a href="http://www.alfredapp.com">Alfred</a> App.
 
@@ -26,7 +26,7 @@ Instantaneous search in your tracks, albums, artists, <em>Your Music</em> and pl
   <leftside><img src="{{ site.url }}/images/index3.jpg"></a></leftside>
   <rightside>
 
-<h2>Full control of your playlists !</h2>
+<h2><i class="fa fa-music"></i> Full control of your playlists !</h2>
 
 <p>Browse, launch, <a href="{{ site.url }}/articles/follow-or-remove-playlist">follow</a> or even <a href="{{ site.url }}/articles/follow-or-remove-playlist">remove</a> any of your playlists
 <br>
@@ -41,12 +41,12 @@ You can also <a href="{{ site.url }}/articles/remove">remove</a> tracks.</p>
 <sectionleft>
   <leftside>
 
-<h2>Search anything online !</h2>
+<h2><i class="fa fa-cloud"></i> Search anything online !</h2>
 
 <p>Missing something in your library? Search online for tracks, albums, artists and playlists. Follow new playlists right from the workflow.</p>
 
 <br>
-<a href="{{ site.url }}/articles/search-online" class="btn-success">Read more</a>
+<a href="{{ site.url }}/articles/search-online" class="btn-success"><i class="fa fa-book"></i> Read more</a>
 
   </leftside>
   <rightside><!--<a href="{{ site.url }}/images/index2.gif">--><img src="{{ site.url }}/images/index2.jpg"></a></rightside>
