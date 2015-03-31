@@ -2,7 +2,7 @@
 layout: article
 permalink: /release-notes/
 title: "Release Notes"
-modified: 2015-03-21
+modified: 2015-03-31
 excerpt: "Release Notes."
 image:
   feature:
@@ -12,6 +12,12 @@ share: false
 toc: false
 noindex: false
 ---
+
+<a name="v6.2"></a>
+6.2:
+
+* <span class="badge info">ADDED</span> Added [Mopidy](https://www.mopidy.com) compatibility for premium users, see [article](http://alfred-spotify-mini-player.com/articles/mopidy/) [#40](https://github.com/vdesabou/alfred-spotify-mini-player/issues/40)
+
 
 <a name="v6.1.2"></a>
 6.1.2:

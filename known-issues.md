@@ -38,5 +38,5 @@ As a workaround, you can create a new playlist (called 'Starred' for example) an
  
 ## Mopidy
 
-* Local tracks are not supported by Mopidy, this is a [knwon issue](https://github.com/mopidy/mopidy/issues/519). The workflow will not display local tracks when Mopidy isused.
+* Local tracks are not supported by Mopidy, this is a [known issue](https://github.com/mopidy/mopidy/issues/519). The workflow will not display local tracks when Mopidy is used.
 
