@@ -36,3 +36,7 @@ As a workaround, you can create a new playlist (called 'Starred' for example) an
 * PHP 5.4.0 or later (shipped by default since Mavericks) is required for authentication. This is because I am using the PHP CLI [built-in web server](http://php.net/manual/en/features.commandline.webserver.php) for Oauth process. If you use an older version, there is a [workround](https://github.com/vdesabou/alfred-spotify-mini-player/issues/44#issuecomment-72003149). Ask for more details if required.
 
  
+## Mopidy
+
+* Local tracks are not supported by Mopidy, this is a [knwon issue](https://github.com/mopidy/mopidy/issues/519). The workflow will not display local tracks when Mopidy isused.
+
