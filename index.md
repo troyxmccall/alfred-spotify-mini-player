@@ -6,8 +6,11 @@ image:
 noindex: false
 ---
 
-**Important:** Spotify Desktop version 1.x **does not work** with the workflow as AppleScript support is broken. See this [post](http://alfred-spotify-mini-player.com/blog/issue-with-latest-spotify-update/) for more details and workaround (i.e revert to 0.9.x version).
+**Important:** Spotify Desktop below version 1.0.3 **does not work** with the workflow as AppleScript support is broken. See this [post](http://alfred-spotify-mini-player.com/blog/issue-with-latest-spotify-update/) for more details and workaround (i.e revert to 0.9.x version).
 {: .notice-danger}
+
+**Update (31st March):** Spotify version [1.0.3](https://community.spotify.com/t5/Spotify-Announcements/Release-Notes-Spotify-for-Desktop/m-p/1075314) fixes the problem, this is currently being deployed. Users must wait for the auto-update, there is no way to force update of the Spotify desktop application.
+{: .notice-info}
 
 <sectionleft>
   <leftside>
