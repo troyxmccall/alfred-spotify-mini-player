@@ -2,7 +2,7 @@
 layout: article
 permalink: /known-issues/
 title: "Known Issues"
-modified: 2015-03-31
+modified: 2015-04-15
 excerpt: "List of Known Issues."
 image:
   feature:
@@ -17,10 +17,6 @@ noindex: false
 
 This is the list of current known issues:
 
-## Spotify Desktop bug
-
-* Spotify Desktop version below 1.0.3 **does not work** with the workflow as AppleScript support is broken. See this [post](http://alfred-spotify-mini-player.com/blog/issue-with-latest-spotify-update/) for more details and workaround (i.e revert to 0.9.x version). 
-[Version 1.0.3](https://community.spotify.com/t5/Spotify-Announcements/Release-Notes-Spotify-for-Desktop/m-p/1075314) fixes the problem, it is currently being deployed by Spotify.
 
 ## Spotify WEB API limitations
 
