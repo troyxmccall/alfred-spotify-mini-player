@@ -2,7 +2,7 @@
 layout: article
 permalink: /release-notes/
 title: "Release Notes"
-modified: 2015-03-31
+modified: 2015-04-16
 excerpt: "Release Notes."
 image:
   feature:
@@ -12,6 +12,19 @@ share: false
 toc: false
 noindex: false
 ---
+
+<a name="v6.2.1"></a>
+6.2.1:
+
+* <span class="badge info">ADDED</span> Add Play/Pause (Remote and Action) command [#71](https://github.com/vdesabou/alfred-spotify-mini-player/issues/71)
+
+* <span class="badge info">ADDED</span> Order albums by date added (newest on top) [#77](https://github.com/vdesabou/alfred-spotify-mini-player/issues/77)
+
+* <span class="badge success">IMPROVED</span> Better handling of artworks, with lower size (64x64 px)[#74](https://github.com/vdesabou/alfred-spotify-mini-player/issues/74)
+
+* <span class="badge danger">FIXED</span> Fix for issue [#73](https://github.com/vdesabou/alfred-spotify-mini-player/issues/73) 404 error while updating playlist with "!" in owner id name
+
+* <span class="badge danger">FIXED</span> Fix for issue [#72](https://github.com/vdesabou/alfred-spotify-mini-player/issues/72) "Playlist" (browse by playlist) list is empty
 
 <a name="v6.2"></a>
 6.2:
