@@ -22,7 +22,7 @@ This is the list of current known issues:
 
 * Collaborative playlists are not currently retrievable. This is a [limitation](https://developer.spotify.com/web-api/get-list-users-playlists/) of WEB API.
 
-* The *Starred* playlist is not returned by Web API. Spotify has removed the notion of _starred tracks_ (which is now kind of replaced by _Your Music_).
+* The *Starred* playlist is not returned by Web API. Spotify has [removed](https://support.spotify.com/us/learn-more/faq/#!/article/what-happened-to-starred-tracks) _starred tracks_ and replaced by _Your Music_.
 As a workaround, you can create a new playlist (called 'Starred' for example) and copy all your starred tracks in it.
 
 * You cannot have more than 10000 tracks in _Your Music_.
