@@ -2,7 +2,7 @@
 layout: article
 permalink: /known-issues/
 title: "Known Issues"
-modified: 2015-05-12
+modified: 2015-05-31
 excerpt: "List of Known Issues."
 image:
   feature:
@@ -17,6 +17,9 @@ noindex: false
 
 This is the list of current known issues:
 
+## Spotify AppleScript bug
+
+* The local tracks [cannot be launched](https://github.com/vdesabou/alfred-spotify-mini-player/issues/82) due to a [bug](https://community.spotify.com/t5/Help-Desktop-Linux-Mac-Windows/AppleScript-play-track-not-working-with-local-tracks/m-p/1143252#M129641) with Spotify AppleScript.
 
 ## Spotify WEB API limitations
 
