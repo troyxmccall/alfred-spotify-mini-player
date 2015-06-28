@@ -2,7 +2,7 @@
 layout: article
 permalink: /release-notes/
 title: "Release Notes"
-modified: 2015-04-16
+modified: 2015-06-28
 excerpt: "Release Notes."
 image:
   feature:
@@ -12,6 +12,16 @@ share: false
 toc: false
 noindex: false
 ---
+
+<a name="v6.2.2"></a>
+6.2.2:
+
+* <span class="badge info">ADDED</span> Add back volmid and volmax commands [#80](https://github.com/vdesabou/alfred-spotify-mini-player/issues/80)
+
+* <span class="badge info">ADDED</span> Add collaborative playlist support [#81](https://github.com/vdesabou/alfred-spotify-mini-player/issues/81)
+
+* <span class="badge danger">FIXED</span> Fix for issue [#78](https://github.com/vdesabou/alfred-spotify-mini-player/issues/78) Just 5 albums in "My Music"
+
 
 <a name="v6.2.1"></a>
 6.2.1:
