@@ -2,7 +2,7 @@
 layout: article
 permalink: /release-notes/
 title: "Release Notes"
-modified: 2015-06-28
+modified: 2015-09-11
 excerpt: "Release Notes."
 image:
   feature:
@@ -12,6 +12,15 @@ share: false
 toc: false
 noindex: false
 ---
+
+<a name="v6.2.3"></a>
+6.2.3:
+
+* <span class="badge info">ADDED</span> Add option to create a [Complete Collection](http://alfred-spotify-mini-player.com/articles/complete-collection/) playlist for artist 
+
+* <span class="badge danger">FIXED</span> Fix for issue [#86](https://github.com/vdesabou/alfred-spotify-mini-player/issues/86) Lyrics are broken
+
+* <span class="badge danger">FIXED</span> Fix for issue [#92](https://github.com/vdesabou/alfred-spotify-mini-player/issues/92) Volume controls not working (does not decrease)
 
 <a name="v6.2.2"></a>
 6.2.2:
