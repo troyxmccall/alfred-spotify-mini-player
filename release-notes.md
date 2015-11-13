@@ -2,7 +2,7 @@
 layout: article
 permalink: /release-notes/
 title: "Release Notes"
-modified: 2015-09-11
+modified: 2015-11-13
 excerpt: "Release Notes."
 image:
   feature:
@@ -12,6 +12,22 @@ share: false
 toc: false
 noindex: false
 ---
+
+<a name="v6.2.4"></a>
+6.2.4:
+
+* <span class="badge info">ADDED</span> Add volume percent configuration in Settings menu [#94](https://github.com/vdesabou/alfred-spotify-mini-player/issues/94)
+
+* <span class="badge info">ADDED</span> Add possibility to remove stars/ratings from track names [#98](https://github.com/vdesabou/alfred-spotify-mini-player/issues/98)
+
+* <span class="badge info">ADDED</span> Add autoplay when starting radio [#99](https://github.com/vdesabou/alfred-spotify-mini-player/issues/99)
+
+* <span class="badge info">ADDED</span> Improve spot_mini_debug by directly uploading TGZ file to transfer.sh [#105](https://github.com/vdesabou/alfred-spotify-mini-player/issues/105)
+
+* <span class="badge danger">FIXED</span> Search does not handle spaces [#97](https://github.com/vdesabou/alfred-spotify-mini-player/issues/87)
+
+* <span class="badge danger">FIXED</span> No 'error' provided in response body happening almost every time for one user [#104](https://github.com/vdesabou/alfred-spotify-mini-player/issues/104)
+
 
 <a name="v6.2.3"></a>
 6.2.3:
