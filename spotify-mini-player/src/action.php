@@ -915,7 +915,7 @@ if ($type == "TRACK" && $other_settings == "" &&
 			exec("kill -9 $(ps -efx | grep \"php\" | egrep \"php -S localhost:15298\" | grep -v grep | awk '{print $2}')");
 			sleep(1);
 			$cache_log = $w->cache() . '/spotify_mini_player_web_server.log';
-			exec("php -S localhost:15298 > \"$cache_log\" 2>&1 &");
+			exec("/usr/local/bin/php -S localhost:15298 > \"$cache_log\" 2>&1 &");
 			sleep(2);
 			exec("open http://localhost:15298");
 			return;

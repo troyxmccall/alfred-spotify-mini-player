@@ -4421,7 +4421,7 @@ function updateLibrary($w) {
 
 	// Download artworks in background
 	if ($artworksToDownload == true) {
-		exec("php -f ./src/action.php -- \"\" \"DOWNLOAD_ARTWORKS\" \"DOWNLOAD_ARTWORKS\" >> \"" . $w->cache() . "/action.log\" 2>&1 & ");
+		exec("/usr/local/bin/php -f ./src/action.php -- \"\" \"DOWNLOAD_ARTWORKS\" \"DOWNLOAD_ARTWORKS\" >> \"" . $w->cache() . "/action.log\" 2>&1 & ");
 	}
 	deleteTheFile($w->data() . '/update_library_in_progress');
 }
@@ -5404,7 +5404,7 @@ function refreshLibrary($w) {
 
 	// Download artworks in background
 	logMsg("========DOWNLOAD_ARTWORKS DURING REFRESH LIBRARY ========");
-	exec("php -f ./src/action.php -- \"\" \"DOWNLOAD_ARTWORKS\" \"DOWNLOAD_ARTWORKS\" >> \"" . $w->cache() . "/action.log\" 2>&1 & ");
+	exec("/usr/local/bin/php -f ./src/action.php -- \"\" \"DOWNLOAD_ARTWORKS\" \"DOWNLOAD_ARTWORKS\" >> \"" . $w->cache() . "/action.log\" 2>&1 & ");
 
 	deleteTheFile($w->data() . '/update_library_in_progress');
 }
